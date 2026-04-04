@@ -1,0 +1,4915 @@
+[
+  {
+    "name": "Caramel Toffee  Crisp 60%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 174.0,
+      "fett_g": 5.0,
+      "kohlen_g": 8.1,
+      "zucker_g": 0.5,
+      "eiweiss_g": 27.0
+    },
+    "pro_100g": {
+      "kcal": 386.0,
+      "fett_g": 11.0,
+      "kohlen_g": 18.0,
+      "zucker_g": 1.1,
+      "eiweiss_g": 60.0
+    },
+    "kollagen_pct": 25.0,
+    "palmoil": false,
+    "preis_eur": 0.95,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.11,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweiß Crispies"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 46.63,
+    "scores": {
+      "protein_kcal": 47.11,
+      "zucker": 24.82,
+      "fett": 8.42,
+      "kollagen": 4.0,
+      "naehrwert": 84.35,
+      "geschmack": 30.0,
+      "preis": 84.0,
+      "gesamt": 62.57
+    },
+    "rank_naehrwert": 5,
+    "rank_geschmack": 86,
+    "rank_preis": 39,
+    "rank_gesamt": 39,
+    "ean": "1234567890123"
+  },
+  {
+    "name": "Crispy White  Chocolate 50%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 163.0,
+      "fett_g": 4.5,
+      "kohlen_g": 12.2,
+      "zucker_g": 1.2,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 363.0,
+      "fett_g": 10.0,
+      "kohlen_g": 27.0,
+      "zucker_g": 2.6,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.89,
+    "proteinquellen": [
+      "Molkeneiweißkonzentrat",
+      "Calciumcaseinat",
+      "Milcheiweißisolat",
+      "Gelantinehydrolysat",
+      "Sojaeiweiß Crispies"
+    ],
+    "geschmack": 2.0,
+    "eff_protein_pct": 44.08,
+    "scores": {
+      "protein_kcal": 43.12,
+      "zucker": 23.43,
+      "fett": 8.79,
+      "kollagen": 4.0,
+      "naehrwert": 79.34,
+      "geschmack": 20.0,
+      "preis": 92.0,
+      "gesamt": 56.87
+    },
+    "rank_naehrwert": 12,
+    "rank_geschmack": 99,
+    "rank_preis": 21,
+    "rank_gesamt": 62,
+    "ean": "1234567890124"
+  },
+  {
+    "name": "Crispy  Stracciatella 50%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 166.0,
+      "fett_g": 5.4,
+      "kohlen_g": 10.3,
+      "zucker_g": 0.4,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 370.0,
+      "fett_g": 12.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 0.9,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.89,
+    "proteinquellen": [
+      "Milcheiweißkonzentrat",
+      "Milcheiweißisolat",
+      "Calciumcaseinat",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweiß Crispies"
+    ],
+    "geschmack": 8.0,
+    "eff_protein_pct": 43.24,
+    "scores": {
+      "protein_kcal": 41.81,
+      "zucker": 25.0,
+      "fett": 8.06,
+      "kollagen": 4.0,
+      "naehrwert": 78.87,
+      "geschmack": 80.0,
+      "preis": 92.0,
+      "gesamt": 80.64
+    },
+    "rank_naehrwert": 14,
+    "rank_geschmack": 10,
+    "rank_preis": 22,
+    "rank_gesamt": 1,
+    "ean": "1234567890125"
+  },
+  {
+    "name": "Orange Dark  Chocolate Crisp  50%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 220.0,
+      "fett_g": 6.6,
+      "kohlen_g": 14.4,
+      "zucker_g": 1.0,
+      "eiweiss_g": 30.0
+    },
+    "pro_100g": {
+      "kcal": 366.0,
+      "fett_g": 11.0,
+      "kohlen_g": 24.0,
+      "zucker_g": 1.6,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.15,
+    "gewicht_g": 60.0,
+    "preis_per_100g": 1.92,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweiß",
+      "Sojaeiweiß-Crispies"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 43.72,
+    "scores": {
+      "protein_kcal": 42.56,
+      "zucker": 24.35,
+      "fett": 8.42,
+      "kollagen": 4.0,
+      "naehrwert": 79.33,
+      "geschmack": 70.0,
+      "preis": 90.91,
+      "gesamt": 76.76
+    },
+    "rank_naehrwert": 13,
+    "rank_geschmack": 19,
+    "rank_preis": 28,
+    "rank_gesamt": 2,
+    "ean": "1234567890126"
+  },
+  {
+    "name": "Kokos Crisp 50%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 221.0,
+      "fett_g": 6.6,
+      "kohlen_g": 16.2,
+      "zucker_g": 1.7,
+      "eiweiss_g": 30.0
+    },
+    "pro_100g": {
+      "kcal": 368.0,
+      "fett_g": 11.0,
+      "kohlen_g": 27.0,
+      "zucker_g": 2.9,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.15,
+    "gewicht_g": 60.0,
+    "preis_per_100g": 1.92,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Sojaeiweiß-Crispies",
+      "Sojaeiweis"
+    ],
+    "geschmack": 4.0,
+    "eff_protein_pct": 43.48,
+    "scores": {
+      "protein_kcal": 42.19,
+      "zucker": 23.15,
+      "fett": 8.42,
+      "kollagen": 4.0,
+      "naehrwert": 77.76,
+      "geschmack": 40.0,
+      "preis": 90.91,
+      "gesamt": 63.97
+    },
+    "rank_naehrwert": 15,
+    "rank_geschmack": 77,
+    "rank_preis": 29,
+    "rank_gesamt": 34,
+    "ean": "1234567890127"
+  },
+  {
+    "name": "Fudgy  Brownie 50%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 159.0,
+      "fett_g": 4.1,
+      "kohlen_g": 11.7,
+      "zucker_g": 1.1,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 353.0,
+      "fett_g": 9.1,
+      "kohlen_g": 26.0,
+      "zucker_g": 2.5,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.89,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweiß Crispies",
+      "Sojaeiweißisolat"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 45.33,
+    "scores": {
+      "protein_kcal": 45.08,
+      "zucker": 23.52,
+      "fett": 9.12,
+      "kollagen": 4.0,
+      "naehrwert": 81.72,
+      "geschmack": 50.0,
+      "preis": 92.0,
+      "gesamt": 70.06
+    },
+    "rank_naehrwert": 9,
+    "rank_geschmack": 52,
+    "rank_preis": 23,
+    "rank_gesamt": 12,
+    "ean": "1234567890128"
+  },
+  {
+    "name": "Peanut Caramel  34%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 149.0,
+      "fett_g": 6.8,
+      "kohlen_g": 10.4,
+      "zucker_g": 1.2,
+      "eiweiss_g": 13.6
+    },
+    "pro_100g": {
+      "kcal": 373.0,
+      "fett_g": 17.0,
+      "kohlen_g": 26.0,
+      "zucker_g": 3.0,
+      "eiweiss_g": 34.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.12,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Erdnüsse",
+      "Sojaeiweiß"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 30.99,
+    "scores": {
+      "protein_kcal": 22.66,
+      "zucker": 23.06,
+      "fett": 6.23,
+      "kollagen": 8.0,
+      "naehrwert": 59.95,
+      "geschmack": 70.0,
+      "preis": 83.64,
+      "gesamt": 66.34
+    },
+    "rank_naehrwert": 50,
+    "rank_geschmack": 23,
+    "rank_preis": 43,
+    "rank_gesamt": 25,
+    "ean": "4066447879902"
+  },
+  {
+    "name": "Pistachio  Caramel 34%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 154.0,
+      "fett_g": 7.2,
+      "kohlen_g": 11.2,
+      "zucker_g": 1.6,
+      "eiweiss_g": 13.6
+    },
+    "pro_100g": {
+      "kcal": 386.0,
+      "fett_g": 18.0,
+      "kohlen_g": 28.0,
+      "zucker_g": 4.0,
+      "eiweiss_g": 34.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.12,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "hydrolisiertes Weizengluten"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 28.19,
+    "scores": {
+      "protein_kcal": 18.29,
+      "zucker": 22.14,
+      "fett": 5.86,
+      "kollagen": 4.0,
+      "naehrwert": 50.29,
+      "geschmack": 70.0,
+      "preis": 83.64,
+      "gesamt": 61.51
+    },
+    "rank_naehrwert": 77,
+    "rank_geschmack": 27,
+    "rank_preis": 44,
+    "rank_gesamt": 42,
+    "ean": "1234567890130"
+  },
+  {
+    "name": "Peanut Caramel  White Edition 33%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 149.0,
+      "fett_g": 6.8,
+      "kohlen_g": 10.8,
+      "zucker_g": 1.4,
+      "eiweiss_g": 13.2
+    },
+    "pro_100g": {
+      "kcal": 372.0,
+      "fett_g": 17.0,
+      "kohlen_g": 27.0,
+      "zucker_g": 3.5,
+      "eiweiss_g": 33.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.12,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Erdnüsse",
+      "Sojaeiweiß"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 30.16,
+    "scores": {
+      "protein_kcal": 21.37,
+      "zucker": 22.6,
+      "fett": 6.23,
+      "kollagen": 8.0,
+      "naehrwert": 58.2,
+      "geschmack": 60.0,
+      "preis": 83.64,
+      "gesamt": 61.46
+    },
+    "rank_naehrwert": 56,
+    "rank_geschmack": 41,
+    "rank_preis": 45,
+    "rank_gesamt": 43,
+    "ean": "1234567890131"
+  },
+  {
+    "name": "Hazelnut Caramel 32%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 150.0,
+      "fett_g": 7.2,
+      "kohlen_g": 10.4,
+      "zucker_g": 1.2,
+      "eiweiss_g": 12.8
+    },
+    "pro_100g": {
+      "kcal": 374.0,
+      "fett_g": 18.0,
+      "kohlen_g": 26.0,
+      "zucker_g": 3.1,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.12,
+    "proteinquellen": [
+      "Sojaeiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Vollmilchpulver"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 29.09,
+    "scores": {
+      "protein_kcal": 19.69,
+      "zucker": 22.97,
+      "fett": 5.86,
+      "kollagen": 8.0,
+      "naehrwert": 56.52,
+      "geschmack": 70.0,
+      "preis": 83.64,
+      "gesamt": 64.62
+    },
+    "rank_naehrwert": 60,
+    "rank_geschmack": 25,
+    "rank_preis": 46,
+    "rank_gesamt": 29,
+    "ean": "1234567890132"
+  },
+  {
+    "name": "Coconut Almond  Crisp 30%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 149.0,
+      "fett_g": 6.8,
+      "kohlen_g": 12.8,
+      "zucker_g": 1.6,
+      "eiweiss_g": 12.0
+    },
+    "pro_100g": {
+      "kcal": 372.0,
+      "fett_g": 17.0,
+      "kohlen_g": 32.0,
+      "zucker_g": 3.9,
+      "eiweiss_g": 30.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.12,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Sojaprotein",
+      "Kollagenhydrolysat (Rind)",
+      "Mandeln",
+      "Ackerbohnenprotein"
+    ],
+    "geschmack": 9.5,
+    "eff_protein_pct": 27.42,
+    "scores": {
+      "protein_kcal": 17.08,
+      "zucker": 22.23,
+      "fett": 6.23,
+      "kollagen": 8.0,
+      "naehrwert": 53.54,
+      "geschmack": 95.0,
+      "preis": 83.64,
+      "gesamt": 73.13
+    },
+    "rank_naehrwert": 66,
+    "rank_geschmack": 1,
+    "rank_preis": 47,
+    "rank_gesamt": 8,
+    "ean": "1234567890133"
+  },
+  {
+    "name": "Himbeere  Crisp 30%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 161.0,
+      "fett_g": 5.2,
+      "kohlen_g": 17.6,
+      "zucker_g": 9.6,
+      "eiweiss_g": 12.0
+    },
+    "pro_100g": {
+      "kcal": 403.0,
+      "fett_g": 13.0,
+      "kohlen_g": 44.0,
+      "zucker_g": 24.0,
+      "eiweiss_g": 30.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.12,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaprotein",
+      "Reisgrieß"
+    ],
+    "geschmack": 9.0,
+    "eff_protein_pct": 25.31,
+    "scores": {
+      "protein_kcal": 13.79,
+      "zucker": 3.69,
+      "fett": 7.69,
+      "kollagen": 8.0,
+      "naehrwert": 33.17,
+      "geschmack": 90.0,
+      "preis": 83.64,
+      "gesamt": 60.95
+    },
+    "rank_naehrwert": 99,
+    "rank_geschmack": 5,
+    "rank_preis": 48,
+    "rank_gesamt": 44,
+    "ean": "1234567890134"
+  },
+  {
+    "name": "Salty Chocolate  Nut 30%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 188.0,
+      "fett_g": 9.2,
+      "kohlen_g": 14.0,
+      "zucker_g": 6.0,
+      "eiweiss_g": 12.0
+    },
+    "pro_100g": {
+      "kcal": 470.0,
+      "fett_g": 23.0,
+      "kohlen_g": 35.0,
+      "zucker_g": 15.0,
+      "eiweiss_g": 30.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.95,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.38,
+    "proteinquellen": [
+      "Erdnüsse",
+      "Sojaeiweiß",
+      "Mandeln",
+      "Haselnüsse",
+      "Erbsenprotein"
+    ],
+    "geschmack": 8.0,
+    "eff_protein_pct": 25.53,
+    "scores": {
+      "protein_kcal": 14.13,
+      "zucker": 11.99,
+      "fett": 4.03,
+      "kollagen": 15,
+      "naehrwert": 45.15,
+      "geschmack": 80.0,
+      "preis": 74.18,
+      "gesamt": 61.99
+    },
+    "rank_naehrwert": 86,
+    "rank_geschmack": 14,
+    "rank_preis": 67,
+    "rank_gesamt": 40,
+    "ean": "1234567890135"
+  },
+  {
+    "name": "Salted  Caramel 24%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 170.0,
+      "fett_g": 7.7,
+      "kohlen_g": 16.2,
+      "zucker_g": 0.7,
+      "eiweiss_g": 10.8
+    },
+    "pro_100g": {
+      "kcal": 377.0,
+      "fett_g": 17.0,
+      "kohlen_g": 36.0,
+      "zucker_g": 1.6,
+      "eiweiss_g": 24.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.89,
+    "proteinquellen": [
+      "Sojaeiweiß",
+      "Erbsenprotein",
+      "Reißeiweiß",
+      "Haselnussstückchen"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 25.46,
+    "scores": {
+      "protein_kcal": 14.02,
+      "zucker": 24.35,
+      "fett": 6.23,
+      "kollagen": 15,
+      "naehrwert": 59.6,
+      "geschmack": 70.0,
+      "preis": 92.0,
+      "gesamt": 67.0
+    },
+    "rank_naehrwert": 52,
+    "rank_geschmack": 24,
+    "rank_preis": 24,
+    "rank_gesamt": 21,
+    "ean": "1234567890136"
+  },
+  {
+    "name": "Crunchy  Brownie &  Cream 26%  limited Edition",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 138.0,
+      "fett_g": 7.2,
+      "kohlen_g": 11.6,
+      "zucker_g": 1.3,
+      "eiweiss_g": 10.4
+    },
+    "pro_100g": {
+      "kcal": 346.0,
+      "fett_g": 18.0,
+      "kohlen_g": 29.0,
+      "zucker_g": 3.3,
+      "eiweiss_g": 26.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.12,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Sojaeiweiß",
+      "Kollagenhydrolysat (Rind)"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 25.55,
+    "scores": {
+      "protein_kcal": 14.16,
+      "zucker": 22.79,
+      "fett": 5.86,
+      "kollagen": 8.0,
+      "naehrwert": 50.81,
+      "geschmack": 60.0,
+      "preis": 83.64,
+      "gesamt": 57.77
+    },
+    "rank_naehrwert": 73,
+    "rank_geschmack": 45,
+    "rank_preis": 49,
+    "rank_gesamt": 55,
+    "ean": "1234567890137"
+  },
+  {
+    "name": "Peanutbutter Chocolate Chip 25% vegan limited Edition",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 145.0,
+      "fett_g": 6.8,
+      "kohlen_g": 15.2,
+      "zucker_g": 0.6,
+      "eiweiss_g": 10.0
+    },
+    "pro_100g": {
+      "kcal": 362.0,
+      "fett_g": 17.0,
+      "kohlen_g": 38.0,
+      "zucker_g": 1.4,
+      "eiweiss_g": 25.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.12,
+    "proteinquellen": [
+      "hydrolysiertes Weizengluten",
+      "Sojaeiweiß",
+      "Reisprotein",
+      "Erdnüsse",
+      "Sojaeiweiß-Crispies"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 27.62,
+    "scores": {
+      "protein_kcal": 17.4,
+      "zucker": 24.54,
+      "fett": 6.23,
+      "kollagen": 15,
+      "naehrwert": 63.17,
+      "geschmack": 50.0,
+      "preis": 83.64,
+      "gesamt": 59.95
+    },
+    "rank_naehrwert": 39,
+    "rank_geschmack": 56,
+    "rank_preis": 50,
+    "rank_gesamt": 47,
+    "ean": "1234567890138"
+  },
+  {
+    "name": "Banana Bread  25%  limited Edition",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 165.0,
+      "fett_g": 8.1,
+      "kohlen_g": 12.6,
+      "zucker_g": 1.4,
+      "eiweiss_g": 11.2
+    },
+    "pro_100g": {
+      "kcal": 367.0,
+      "fett_g": 18.0,
+      "kohlen_g": 28.0,
+      "zucker_g": 3.0,
+      "eiweiss_g": 25.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.89,
+    "proteinquellen": [
+      "hydrolisiertes Weizengluten",
+      "Sojaeiweiß",
+      "Reiseiweiß"
+    ],
+    "geschmack": 8.5,
+    "eff_protein_pct": 27.25,
+    "scores": {
+      "protein_kcal": 16.82,
+      "zucker": 23.06,
+      "fett": 5.86,
+      "kollagen": 15,
+      "naehrwert": 60.74,
+      "geschmack": 85.0,
+      "preis": 92.0,
+      "gesamt": 73.57
+    },
+    "rank_naehrwert": 46,
+    "rank_geschmack": 8,
+    "rank_preis": 25,
+    "rank_gesamt": 7,
+    "ean": "1234567890139"
+  },
+  {
+    "name": "Cinnamon Crisp 37%  limited Edition",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 141.0,
+      "fett_g": 5.2,
+      "kohlen_g": 10.8,
+      "zucker_g": 1.2,
+      "eiweiss_g": 14.8
+    },
+    "pro_100g": {
+      "kcal": 353.0,
+      "fett_g": 13.0,
+      "kohlen_g": 27.0,
+      "zucker_g": 3.0,
+      "eiweiss_g": 37.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 0.95,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.38,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat",
+      "Sojaeiweiss"
+    ],
+    "geschmack": 8.0,
+    "eff_protein_pct": 35.64,
+    "scores": {
+      "protein_kcal": 29.93,
+      "zucker": 23.06,
+      "fett": 7.69,
+      "kollagen": 8.0,
+      "naehrwert": 68.68,
+      "geschmack": 80.0,
+      "preis": 74.18,
+      "gesamt": 73.76
+    },
+    "rank_naehrwert": 33,
+    "rank_geschmack": 11,
+    "rank_preis": 68,
+    "rank_gesamt": 6,
+    "ean": "1234567890140"
+  },
+  {
+    "name": "Popcorn Salted  Caramel 30%",
+    "shop": "DM",
+    "pro_riegel": {
+      "kcal": 161.0,
+      "fett_g": 7.6,
+      "kohlen_g": 14.8,
+      "zucker_g": 1.3,
+      "eiweiss_g": 12.0
+    },
+    "pro_100g": {
+      "kcal": 403.0,
+      "fett_g": 19.0,
+      "kohlen_g": 37.0,
+      "zucker_g": 3.2,
+      "eiweiss_g": 30.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.12,
+    "proteinquellen": [
+      "Sojaeiweiß-Crispies,",
+      "Kollagenhydrolysat,",
+      "Milcheiweiss"
+    ],
+    "geschmack": 9.0,
+    "eff_protein_pct": 23.82,
+    "scores": {
+      "protein_kcal": 11.46,
+      "zucker": 22.88,
+      "fett": 5.49,
+      "kollagen": 4.0,
+      "naehrwert": 43.83,
+      "geschmack": 90.0,
+      "preis": 83.64,
+      "gesamt": 66.28
+    },
+    "rank_naehrwert": 87,
+    "rank_geschmack": 3,
+    "rank_preis": 51,
+    "rank_gesamt": 26,
+    "ean": "1234567890141"
+  },
+  {
+    "name": "Schoko 32% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 136.0,
+      "fett_g": 3.5,
+      "kohlen_g": 15.1,
+      "zucker_g": 9.1,
+      "eiweiss_g": 11.2
+    },
+    "pro_100g": {
+      "kcal": 388.0,
+      "fett_g": 10.0,
+      "kohlen_g": 43.0,
+      "zucker_g": 26.0,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 10.0,
+    "palmoil": false,
+    "preis_eur": 0.59,
+    "gewicht_g": 35.0,
+    "preis_per_100g": 1.69,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Sojaeiweißisolat",
+      "Kollagenhydrolysat (Rind)",
+      "Eiklarpulver"
+    ],
+    "geschmack": 4.5,
+    "eff_protein_pct": 29.69,
+    "scores": {
+      "protein_kcal": 20.63,
+      "zucker": 1.85,
+      "fett": 8.79,
+      "kollagen": 11.0,
+      "naehrwert": 42.27,
+      "geschmack": 45.0,
+      "preis": 99.27,
+      "gesamt": 49.06
+    },
+    "rank_naehrwert": 88,
+    "rank_geschmack": 73,
+    "rank_preis": 6,
+    "rank_gesamt": 89,
+    "ean": "1234567890142"
+  },
+  {
+    "name": "Banane 32% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 138.0,
+      "fett_g": 3.9,
+      "kohlen_g": 14.7,
+      "zucker_g": 9.4,
+      "eiweiss_g": 11.2
+    },
+    "pro_100g": {
+      "kcal": 393.0,
+      "fett_g": 11.0,
+      "kohlen_g": 42.0,
+      "zucker_g": 27.0,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 10.0,
+    "palmoil": false,
+    "preis_eur": 0.59,
+    "gewicht_g": 35.0,
+    "preis_per_100g": 1.69,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Sojaeiweißisolat",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweißisolat",
+      "Eiklarpulver"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 29.31,
+    "scores": {
+      "protein_kcal": 20.04,
+      "zucker": 0.92,
+      "fett": 8.42,
+      "kollagen": 11.0,
+      "naehrwert": 40.38,
+      "geschmack": 50.0,
+      "preis": 99.27,
+      "gesamt": 50.12
+    },
+    "rank_naehrwert": 92,
+    "rank_geschmack": 69,
+    "rank_preis": 7,
+    "rank_gesamt": 83,
+    "ean": "1234567890143"
+  },
+  {
+    "name": "Cocos 32% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 140.0,
+      "fett_g": 4.5,
+      "kohlen_g": 12.9,
+      "zucker_g": 8.4,
+      "eiweiss_g": 11.2
+    },
+    "pro_100g": {
+      "kcal": 401.0,
+      "fett_g": 13.0,
+      "kohlen_g": 37.0,
+      "zucker_g": 24.0,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 10.0,
+    "palmoil": false,
+    "preis_eur": 0.59,
+    "gewicht_g": 35.0,
+    "preis_per_100g": 1.69,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Sojaeiweißisolat",
+      "Kollagenhydrolysat (Rind)",
+      "Eiklarpulver"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 28.73,
+    "scores": {
+      "protein_kcal": 19.13,
+      "zucker": 3.69,
+      "fett": 7.69,
+      "kollagen": 11.0,
+      "naehrwert": 41.51,
+      "geschmack": 60.0,
+      "preis": 99.27,
+      "gesamt": 54.68
+    },
+    "rank_naehrwert": 90,
+    "rank_geschmack": 46,
+    "rank_preis": 8,
+    "rank_gesamt": 73,
+    "ean": "1234567890144"
+  },
+  {
+    "name": "Vanille 32% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 134.0,
+      "fett_g": 3.5,
+      "kohlen_g": 15.1,
+      "zucker_g": 9.8,
+      "eiweiss_g": 11.2
+    },
+    "pro_100g": {
+      "kcal": 384.0,
+      "fett_g": 10.0,
+      "kohlen_g": 43.0,
+      "zucker_g": 28.0,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 10.0,
+    "palmoil": false,
+    "preis_eur": 0.59,
+    "gewicht_g": 35.0,
+    "preis_per_100g": 1.69,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweißisolat",
+      "Eiklarpulver"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 30.0,
+    "scores": {
+      "protein_kcal": 21.12,
+      "zucker": 0.0,
+      "fett": 8.79,
+      "kollagen": 11.0,
+      "naehrwert": 40.91,
+      "geschmack": 50.0,
+      "preis": 99.27,
+      "gesamt": 50.38
+    },
+    "rank_naehrwert": 91,
+    "rank_geschmack": 68,
+    "rank_preis": 9,
+    "rank_gesamt": 82,
+    "ean": "1234567890145"
+  },
+  {
+    "name": "Cookie Dough 51% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 178.0,
+      "fett_g": 5.0,
+      "kohlen_g": 11.5,
+      "zucker_g": 0.8,
+      "eiweiss_g": 25.5
+    },
+    "pro_100g": {
+      "kcal": 355.0,
+      "fett_g": 9.9,
+      "kohlen_g": 23.0,
+      "zucker_g": 1.7,
+      "eiweiss_g": 51.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 50.0,
+    "preis_per_100g": 1.98,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Sojaeiweiss",
+      "hydrolysiertes Weizengluten",
+      "Kollagenhydrolysat (Rind)"
+    ],
+    "geschmack": 2.0,
+    "eff_protein_pct": 45.97,
+    "scores": {
+      "protein_kcal": 46.08,
+      "zucker": 24.26,
+      "fett": 8.83,
+      "kollagen": 4.0,
+      "naehrwert": 83.17,
+      "geschmack": 20.0,
+      "preis": 88.73,
+      "gesamt": 58.46
+    },
+    "rank_naehrwert": 7,
+    "rank_geschmack": 97,
+    "rank_preis": 30,
+    "rank_gesamt": 52,
+    "ean": "1234567890146"
+  },
+  {
+    "name": "Vanille 60% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 168.0,
+      "fett_g": 3.4,
+      "kohlen_g": 10.0,
+      "zucker_g": 0.9,
+      "eiweiss_g": 30.0
+    },
+    "pro_100g": {
+      "kcal": 337.0,
+      "fett_g": 6.7,
+      "kohlen_g": 20.0,
+      "zucker_g": 1.8,
+      "eiweiss_g": 60.0
+    },
+    "kollagen_pct": 40.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 50.0,
+    "preis_per_100g": 2.38,
+    "proteinquellen": [
+      "Kollagenhydrolysat",
+      "Milcheiweiss"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 42.73,
+    "scores": {
+      "protein_kcal": 41.01,
+      "zucker": 24.17,
+      "fett": 10.0,
+      "kollagen": 0.0,
+      "naehrwert": 75.18,
+      "geschmack": 30.0,
+      "preis": 74.18,
+      "gesamt": 57.01
+    },
+    "rank_naehrwert": 27,
+    "rank_geschmack": 89,
+    "rank_preis": 69,
+    "rank_gesamt": 61,
+    "ean": "1234567890147"
+  },
+  {
+    "name": "White Caramel  51% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 171.0,
+      "fett_g": 4.3,
+      "kohlen_g": 12.0,
+      "zucker_g": 0.8,
+      "eiweiss_g": 25.5
+    },
+    "pro_100g": {
+      "kcal": 342.0,
+      "fett_g": 8.6,
+      "kohlen_g": 24.0,
+      "zucker_g": 1.7,
+      "eiweiss_g": 51.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 50.0,
+    "preis_per_100g": 1.98,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "hydrolysiertes Weizengluten",
+      "Kollagenhydrolysat (Rind)"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 47.72,
+    "scores": {
+      "protein_kcal": 48.81,
+      "zucker": 24.26,
+      "fett": 9.3,
+      "kollagen": 4.0,
+      "naehrwert": 86.37,
+      "geschmack": 30.0,
+      "preis": 88.73,
+      "gesamt": 64.06
+    },
+    "rank_naehrwert": 4,
+    "rank_geschmack": 85,
+    "rank_preis": 31,
+    "rank_gesamt": 33,
+    "ean": "1234567890148"
+  },
+  {
+    "name": "Stracciatella 50%",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 160.0,
+      "fett_g": 4.5,
+      "kohlen_g": 11.2,
+      "zucker_g": 1.0,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 356.0,
+      "fett_g": 10.0,
+      "kohlen_g": 25.0,
+      "zucker_g": 2.2,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Gelatine (Rind)",
+      "Sojaprotein",
+      "Molkenproteinkonzentrat"
+    ],
+    "geschmack": 2.0,
+    "eff_protein_pct": 44.94,
+    "scores": {
+      "protein_kcal": 44.47,
+      "zucker": 23.8,
+      "fett": 8.79,
+      "kollagen": 4.0,
+      "naehrwert": 81.06,
+      "geschmack": 20.0,
+      "preis": 80.73,
+      "gesamt": 56.6
+    },
+    "rank_naehrwert": 10,
+    "rank_geschmack": 98,
+    "rank_preis": 53,
+    "rank_gesamt": 65,
+    "ean": "1234567890149"
+  },
+  {
+    "name": "Peanut Caramel 33% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 181.0,
+      "fett_g": 8.6,
+      "kohlen_g": 16.6,
+      "zucker_g": 2.0,
+      "eiweiss_g": 14.8
+    },
+    "pro_100g": {
+      "kcal": 403.0,
+      "fett_g": 19.0,
+      "kohlen_g": 37.0,
+      "zucker_g": 4.4,
+      "eiweiss_g": 33.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Kollagenhydrolysat",
+      "Sojaprotein"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 27.84,
+    "scores": {
+      "protein_kcal": 17.74,
+      "zucker": 21.77,
+      "fett": 5.49,
+      "kollagen": 8.0,
+      "naehrwert": 53.0,
+      "geschmack": 60.0,
+      "preis": 80.73,
+      "gesamt": 58.57
+    },
+    "rank_naehrwert": 68,
+    "rank_geschmack": 43,
+    "rank_preis": 54,
+    "rank_gesamt": 51,
+    "ean": "1234567890150"
+  },
+  {
+    "name": "White Strawberry 38% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 162.0,
+      "fett_g": 5.4,
+      "kohlen_g": 14.8,
+      "zucker_g": 1.7,
+      "eiweiss_g": 17.1
+    },
+    "pro_100g": {
+      "kcal": 361.0,
+      "fett_g": 12.0,
+      "kohlen_g": 33.0,
+      "zucker_g": 3.8,
+      "eiweiss_g": 38.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Sojaeiweiss",
+      "Kollagenhydrolysat"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 33.68,
+    "scores": {
+      "protein_kcal": 26.87,
+      "zucker": 22.32,
+      "fett": 8.06,
+      "kollagen": 4.0,
+      "naehrwert": 61.25,
+      "geschmack": 70.0,
+      "preis": 80.73,
+      "gesamt": 66.7
+    },
+    "rank_naehrwert": 44,
+    "rank_geschmack": 22,
+    "rank_preis": 55,
+    "rank_gesamt": 22,
+    "ean": "1234567890151"
+  },
+  {
+    "name": "White  Peanut Toffee 35% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 185.0,
+      "fett_g": 8.6,
+      "kohlen_g": 17.1,
+      "zucker_g": 1.8,
+      "eiweiss_g": 15.8
+    },
+    "pro_100g": {
+      "kcal": 412.0,
+      "fett_g": 19.0,
+      "kohlen_g": 38.0,
+      "zucker_g": 3.9,
+      "eiweiss_g": 35.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Kollagenhydrolysat",
+      "Milchprotein",
+      "Erdnuss",
+      "Sojaprotein"
+    ],
+    "geschmack": 5.5,
+    "eff_protein_pct": 27.18,
+    "scores": {
+      "protein_kcal": 16.71,
+      "zucker": 22.23,
+      "fett": 5.49,
+      "kollagen": 4.0,
+      "naehrwert": 48.43,
+      "geschmack": 55.0,
+      "preis": 80.73,
+      "gesamt": 54.29
+    },
+    "rank_naehrwert": 80,
+    "rank_geschmack": 51,
+    "rank_preis": 56,
+    "rank_gesamt": 74,
+    "ean": "1234567890152"
+  },
+  {
+    "name": "Vanilla Caramell 38% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 170.0,
+      "fett_g": 6.3,
+      "kohlen_g": 16.6,
+      "zucker_g": 1.8,
+      "eiweiss_g": 17.1
+    },
+    "pro_100g": {
+      "kcal": 377.0,
+      "fett_g": 14.0,
+      "kohlen_g": 37.0,
+      "zucker_g": 3.9,
+      "eiweiss_g": 38.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milchprotein",
+      "Kollagenhydrolysat",
+      "Sojaeiweiss"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 32.25,
+    "scores": {
+      "protein_kcal": 24.63,
+      "zucker": 22.23,
+      "fett": 7.33,
+      "kollagen": 4.0,
+      "naehrwert": 58.19,
+      "geschmack": 50.0,
+      "preis": 80.73,
+      "gesamt": 57.17
+    },
+    "rank_naehrwert": 57,
+    "rank_geschmack": 60,
+    "rank_preis": 57,
+    "rank_gesamt": 59,
+    "ean": "1234567890153"
+  },
+  {
+    "name": "Salted  Caramel 33% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 173.0,
+      "fett_g": 6.8,
+      "kohlen_g": 18.9,
+      "zucker_g": 1.8,
+      "eiweiss_g": 14.8
+    },
+    "pro_100g": {
+      "kcal": 384.0,
+      "fett_g": 15.0,
+      "kohlen_g": 42.0,
+      "zucker_g": 4.0,
+      "eiweiss_g": 33.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milchprotein",
+      "Kollagenhydrolysat",
+      "Sojaeiweiss"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 27.5,
+    "scores": {
+      "protein_kcal": 17.21,
+      "zucker": 22.14,
+      "fett": 6.96,
+      "kollagen": 4.0,
+      "naehrwert": 50.31,
+      "geschmack": 50.0,
+      "preis": 80.73,
+      "gesamt": 53.23
+    },
+    "rank_naehrwert": 76,
+    "rank_geschmack": 66,
+    "rank_preis": 58,
+    "rank_gesamt": 77,
+    "ean": "1234567890154"
+  },
+  {
+    "name": "Double Choc 33% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 171.0,
+      "fett_g": 7.2,
+      "kohlen_g": 17.1,
+      "zucker_g": 1.5,
+      "eiweiss_g": 14.8
+    },
+    "pro_100g": {
+      "kcal": 381.0,
+      "fett_g": 16.0,
+      "kohlen_g": 38.0,
+      "zucker_g": 3.3,
+      "eiweiss_g": 33.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Kollagenhydrolysat",
+      "Sojaeiweiss"
+    ],
+    "geschmack": 5.5,
+    "eff_protein_pct": 27.72,
+    "scores": {
+      "protein_kcal": 17.55,
+      "zucker": 22.79,
+      "fett": 6.59,
+      "kollagen": 4.0,
+      "naehrwert": 50.93,
+      "geschmack": 55.0,
+      "preis": 80.73,
+      "gesamt": 55.54
+    },
+    "rank_naehrwert": 72,
+    "rank_geschmack": 50,
+    "rank_preis": 59,
+    "rank_gesamt": 69,
+    "ean": "1234567890155"
+  },
+  {
+    "name": "Black & White  Cookie 33%",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 194.0,
+      "fett_g": 10.3,
+      "kohlen_g": 13.9,
+      "zucker_g": 2.0,
+      "eiweiss_g": 14.8
+    },
+    "pro_100g": {
+      "kcal": 431.0,
+      "fett_g": 23.0,
+      "kohlen_g": 31.0,
+      "zucker_g": 4.4,
+      "eiweiss_g": 33.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Gelatine (Rind)"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 26.03,
+    "scores": {
+      "protein_kcal": 14.91,
+      "zucker": 21.77,
+      "fett": 4.03,
+      "kollagen": 8.0,
+      "naehrwert": 48.71,
+      "geschmack": 30.0,
+      "preis": 80.73,
+      "gesamt": 44.43
+    },
+    "rank_naehrwert": 78,
+    "rank_geschmack": 94,
+    "rank_preis": 60,
+    "rank_gesamt": 96,
+    "ean": "1234567890156"
+  },
+  {
+    "name": "Dark Cookie 33%",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 168.0,
+      "fett_g": 7.7,
+      "kohlen_g": 12.2,
+      "zucker_g": 1.3,
+      "eiweiss_g": 14.8
+    },
+    "pro_100g": {
+      "kcal": 373.0,
+      "fett_g": 17.0,
+      "kohlen_g": 27.0,
+      "zucker_g": 2.8,
+      "eiweiss_g": 33.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.64,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "hydrolysiertes Weizengluten",
+      "Kollagenhydrolysat"
+    ],
+    "geschmack": 8.0,
+    "eff_protein_pct": 30.08,
+    "scores": {
+      "protein_kcal": 21.24,
+      "zucker": 23.25,
+      "fett": 6.23,
+      "kollagen": 8.0,
+      "naehrwert": 58.72,
+      "geschmack": 80.0,
+      "preis": 64.73,
+      "gesamt": 67.83
+    },
+    "rank_naehrwert": 54,
+    "rank_geschmack": 13,
+    "rank_preis": 79,
+    "rank_gesamt": 18,
+    "ean": "1234567890157"
+  },
+  {
+    "name": "Almond Coconut 35%",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 172.0,
+      "fett_g": 6.8,
+      "kohlen_g": 18.4,
+      "zucker_g": 1.8,
+      "eiweiss_g": 15.8
+    },
+    "pro_100g": {
+      "kcal": 382.0,
+      "fett_g": 15.0,
+      "kohlen_g": 41.0,
+      "zucker_g": 4.0,
+      "eiweiss_g": 35.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.64,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Kollagenhydrolysat",
+      "Sojaeiweiss"
+    ],
+    "geschmack": 8.0,
+    "eff_protein_pct": 31.15,
+    "scores": {
+      "protein_kcal": 22.91,
+      "zucker": 22.14,
+      "fett": 6.96,
+      "kollagen": 8.0,
+      "naehrwert": 60.01,
+      "geschmack": 80.0,
+      "preis": 64.73,
+      "gesamt": 68.48
+    },
+    "rank_naehrwert": 49,
+    "rank_geschmack": 12,
+    "rank_preis": 80,
+    "rank_gesamt": 16,
+    "ean": "1234567890158"
+  },
+  {
+    "name": "Hazelnut  Nougat 34%",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 171.0,
+      "fett_g": 7.7,
+      "kohlen_g": 12.6,
+      "zucker_g": 1.8,
+      "eiweiss_g": 15.3
+    },
+    "pro_100g": {
+      "kcal": 379.0,
+      "fett_g": 17.0,
+      "kohlen_g": 28.0,
+      "zucker_g": 4.0,
+      "eiweiss_g": 34.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.64,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "hydrolysiertes Weizengluten",
+      "Kollagenhydrolysat",
+      "Sojaeiweiss"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 30.5,
+    "scores": {
+      "protein_kcal": 21.9,
+      "zucker": 22.14,
+      "fett": 6.23,
+      "kollagen": 8.0,
+      "naehrwert": 58.27,
+      "geschmack": 50.0,
+      "preis": 64.73,
+      "gesamt": 55.61
+    },
+    "rank_naehrwert": 55,
+    "rank_geschmack": 59,
+    "rank_preis": 81,
+    "rank_gesamt": 67,
+    "ean": "1234567890159"
+  },
+  {
+    "name": "Vegan Chocolate  Brownie 32% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 165.0,
+      "fett_g": 7.2,
+      "kohlen_g": 13.9,
+      "zucker_g": 1.1,
+      "eiweiss_g": 14.4
+    },
+    "pro_100g": {
+      "kcal": 366.0,
+      "fett_g": 16.0,
+      "kohlen_g": 31.0,
+      "zucker_g": 2.4,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Sojaprotein",
+      "Weizengluten",
+      "Erbsenprotein",
+      "Reisprotein",
+      "Kürbniskernprotein"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 34.97,
+    "scores": {
+      "protein_kcal": 28.88,
+      "zucker": 23.62,
+      "fett": 6.59,
+      "kollagen": 15,
+      "naehrwert": 74.09,
+      "geschmack": 30.0,
+      "preis": 80.73,
+      "gesamt": 57.12
+    },
+    "rank_naehrwert": 29,
+    "rank_geschmack": 91,
+    "rank_preis": 61,
+    "rank_gesamt": 60,
+    "ean": "1234567890160"
+  },
+  {
+    "name": "Vegan Salty  Peanut 31% Protein",
+    "shop": "Rossmann",
+    "pro_riegel": {
+      "kcal": 184.0,
+      "fett_g": 8.8,
+      "kohlen_g": 14.0,
+      "zucker_g": 5.6,
+      "eiweiss_g": 12.4
+    },
+    "pro_100g": {
+      "kcal": 461.0,
+      "fett_g": 22.0,
+      "kohlen_g": 35.0,
+      "zucker_g": 14.0,
+      "eiweiss_g": 31.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.48,
+    "proteinquellen": [
+      "Erdnuss",
+      "Sojaprotein",
+      "Erbsenprotein"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 26.9,
+    "scores": {
+      "protein_kcal": 16.27,
+      "zucker": 12.92,
+      "fett": 4.4,
+      "kollagen": 15,
+      "naehrwert": 48.59,
+      "geschmack": 70.0,
+      "preis": 70.55,
+      "gesamt": 59.35
+    },
+    "rank_naehrwert": 79,
+    "rank_geschmack": 28,
+    "rank_preis": 76,
+    "rank_gesamt": 48,
+    "ean": "1234567890161"
+  },
+  {
+    "name": "K concept+ sports 30% Erdnuss",
+    "shop": "Kaufland",
+    "pro_riegel": {
+      "kcal": 187.0,
+      "fett_g": 6.8,
+      "kohlen_g": 19.4,
+      "zucker_g": 11.7,
+      "eiweiss_g": 13.5
+    },
+    "pro_100g": {
+      "kcal": 416.0,
+      "fett_g": 15.0,
+      "kohlen_g": 43.0,
+      "zucker_g": 26.0,
+      "eiweiss_g": 30.0
+    },
+    "kollagen_pct": 10.0,
+    "palmoil": false,
+    "preis_eur": 0.75,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.67,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Molkeneiweiss",
+      "Kollagenhydrolysat"
+    ],
+    "geschmack": 3.5,
+    "eff_protein_pct": 25.96,
+    "scores": {
+      "protein_kcal": 14.8,
+      "zucker": 1.85,
+      "fett": 6.96,
+      "kollagen": 11.0,
+      "naehrwert": 34.61,
+      "geschmack": 35.0,
+      "preis": 100.0,
+      "gesamt": 41.3
+    },
+    "rank_naehrwert": 98,
+    "rank_geschmack": 82,
+    "rank_preis": 1,
+    "rank_gesamt": 102,
+    "ean": "1234567890162"
+  },
+  {
+    "name": "K concept+ sports 30% Schoko",
+    "shop": "Kaufland",
+    "pro_riegel": {
+      "kcal": 182.0,
+      "fett_g": 6.8,
+      "kohlen_g": 17.6,
+      "zucker_g": 9.9,
+      "eiweiss_g": 13.5
+    },
+    "pro_100g": {
+      "kcal": 404.0,
+      "fett_g": 15.0,
+      "kohlen_g": 39.0,
+      "zucker_g": 22.0,
+      "eiweiss_g": 30.0
+    },
+    "kollagen_pct": 10.0,
+    "palmoil": false,
+    "preis_eur": 0.75,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.67,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Sojaeiweiss",
+      "Kollagenhydrolysat"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 26.73,
+    "scores": {
+      "protein_kcal": 16.01,
+      "zucker": 5.54,
+      "fett": 6.96,
+      "kollagen": 11.0,
+      "naehrwert": 39.51,
+      "geschmack": 30.0,
+      "preis": 100.0,
+      "gesamt": 41.75
+    },
+    "rank_naehrwert": 94,
+    "rank_geschmack": 96,
+    "rank_preis": 2,
+    "rank_gesamt": 101,
+    "ean": "1234567890163"
+  },
+  {
+    "name": "K concept+ sports 50% Schoko-Brownie",
+    "shop": "Kaufland",
+    "pro_riegel": {
+      "kcal": 172.0,
+      "fett_g": 6.3,
+      "kohlen_g": 10.3,
+      "zucker_g": 0.8,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 382.0,
+      "fett_g": 14.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 1.7,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.75,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.67,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Kollagenhydrolysat",
+      "Sojaeiweiss"
+    ],
+    "geschmack": 0.0,
+    "eff_protein_pct": 41.88,
+    "scores": {
+      "protein_kcal": 39.68,
+      "zucker": 24.26,
+      "fett": 7.33,
+      "kollagen": 4.0,
+      "naehrwert": 75.27,
+      "geschmack": 0.0,
+      "preis": 100.0,
+      "gesamt": 47.63
+    },
+    "rank_naehrwert": 26,
+    "rank_geschmack": 107,
+    "rank_preis": 3,
+    "rank_gesamt": 92,
+    "ean": "1234567890164"
+  },
+  {
+    "name": "K concept+ sports 50% Kokos",
+    "shop": "Kaufland",
+    "pro_riegel": {
+      "kcal": 169.0,
+      "fett_g": 5.8,
+      "kohlen_g": 10.3,
+      "zucker_g": 0.9,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 375.0,
+      "fett_g": 13.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 1.9,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.75,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.67,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Kollagenhydrolysat"
+    ],
+    "geschmack": 2.0,
+    "eff_protein_pct": 42.67,
+    "scores": {
+      "protein_kcal": 40.92,
+      "zucker": 24.08,
+      "fett": 7.69,
+      "kollagen": 4.0,
+      "naehrwert": 76.69,
+      "geschmack": 20.0,
+      "preis": 100.0,
+      "gesamt": 56.34
+    },
+    "rank_naehrwert": 17,
+    "rank_geschmack": 100,
+    "rank_preis": 4,
+    "rank_gesamt": 66,
+    "ean": "1234567890165"
+  },
+  {
+    "name": "K concept+ sports 27% Himbeere Schoko vegan",
+    "shop": "Kaufland",
+    "pro_riegel": {
+      "kcal": 155.0,
+      "fett_g": 5.8,
+      "kohlen_g": 13.9,
+      "zucker_g": 0.9,
+      "eiweiss_g": 12.2
+    },
+    "pro_100g": {
+      "kcal": 345.0,
+      "fett_g": 13.0,
+      "kohlen_g": 31.0,
+      "zucker_g": 1.9,
+      "eiweiss_g": 27.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.75,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.67,
+    "proteinquellen": [
+      "Erbseneiweiss",
+      "Sojaeiweiss",
+      "Sojacrispies"
+    ],
+    "geschmack": 7.5,
+    "eff_protein_pct": 31.3,
+    "scores": {
+      "protein_kcal": 23.15,
+      "zucker": 24.08,
+      "fett": 7.69,
+      "kollagen": 15,
+      "naehrwert": 69.92,
+      "geschmack": 75.0,
+      "preis": 100.0,
+      "gesamt": 74.96
+    },
+    "rank_naehrwert": 31,
+    "rank_geschmack": 16,
+    "rank_preis": 5,
+    "rank_gesamt": 3,
+    "ean": "1234567890166"
+  },
+  {
+    "name": "Protein Bar Schokoladen-Brownie 50%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 171.0,
+      "fett_g": 5.8,
+      "kohlen_g": 10.3,
+      "zucker_g": 0.8,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 379.0,
+      "fett_g": 13.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 1.7,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.49,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 3.31,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweiß"
+    ],
+    "geschmack": 2.0,
+    "eff_protein_pct": 42.22,
+    "scores": {
+      "protein_kcal": 40.22,
+      "zucker": 24.26,
+      "fett": 7.69,
+      "kollagen": 4.0,
+      "naehrwert": 76.17,
+      "geschmack": 20.0,
+      "preis": 40.36,
+      "gesamt": 50.12
+    },
+    "rank_naehrwert": 22,
+    "rank_geschmack": 101,
+    "rank_preis": 96,
+    "rank_gesamt": 84,
+    "ean": "1234567890167"
+  },
+  {
+    "name": "Protein Bar Weiße Schokolade Sauerkirsch-Himbeere 50%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 169.0,
+      "fett_g": 5.8,
+      "kohlen_g": 10.3,
+      "zucker_g": 0.9,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 376.0,
+      "fett_g": 13.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 2.0,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.49,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 3.31,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Vollmilchpulver"
+    ],
+    "geschmack": 6.5,
+    "eff_protein_pct": 42.55,
+    "scores": {
+      "protein_kcal": 40.73,
+      "zucker": 23.99,
+      "fett": 7.69,
+      "kollagen": 4.0,
+      "naehrwert": 76.41,
+      "geschmack": 65.0,
+      "preis": 40.36,
+      "gesamt": 68.24
+    },
+    "rank_naehrwert": 19,
+    "rank_geschmack": 32,
+    "rank_preis": 97,
+    "rank_gesamt": 17,
+    "ean": "1234567890168"
+  },
+  {
+    "name": "Protein Bar Erdnuss 50%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 170.0,
+      "fett_g": 5.8,
+      "kohlen_g": 10.3,
+      "zucker_g": 0.9,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 377.0,
+      "fett_g": 13.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 1.9,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.49,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 3.31,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Vollmilchpulver"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 42.44,
+    "scores": {
+      "protein_kcal": 40.56,
+      "zucker": 24.08,
+      "fett": 7.69,
+      "kollagen": 4.0,
+      "naehrwert": 76.33,
+      "geschmack": 30.0,
+      "preis": 40.36,
+      "gesamt": 54.2
+    },
+    "rank_naehrwert": 21,
+    "rank_geschmack": 87,
+    "rank_preis": 98,
+    "rank_gesamt": 76,
+    "ean": "1234567890169"
+  },
+  {
+    "name": "Active Schoko Erdnussbutter 40%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 186.0,
+      "fett_g": 7.2,
+      "kohlen_g": 14.7,
+      "zucker_g": 1.1,
+      "eiweiss_g": 20.1
+    },
+    "pro_100g": {
+      "kcal": 373.0,
+      "fett_g": 14.5,
+      "kohlen_g": 29.4,
+      "zucker_g": 2.1,
+      "eiweiss_g": 40.3
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.99,
+    "gewicht_g": 50.0,
+    "preis_per_100g": 3.98,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaproteinisolat",
+      "Vollmilchpulver",
+      "Erdnuss"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 34.57,
+    "scores": {
+      "protein_kcal": 28.26,
+      "zucker": 23.89,
+      "fett": 7.14,
+      "kollagen": 4.0,
+      "naehrwert": 63.29,
+      "geschmack": 30.0,
+      "preis": 16.0,
+      "gesamt": 45.24
+    },
+    "rank_naehrwert": 38,
+    "rank_geschmack": 92,
+    "rank_preis": 101,
+    "rank_gesamt": 94,
+    "ean": "1234567890170"
+  },
+  {
+    "name": "Active Weiße Schokolade Vanile 40%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 182.0,
+      "fett_g": 6.5,
+      "kohlen_g": 15.3,
+      "zucker_g": 1.1,
+      "eiweiss_g": 20.0
+    },
+    "pro_100g": {
+      "kcal": 363.0,
+      "fett_g": 13.1,
+      "kohlen_g": 30.7,
+      "zucker_g": 2.1,
+      "eiweiss_g": 40.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.99,
+    "gewicht_g": 50.0,
+    "preis_per_100g": 3.98,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaproteinisolat",
+      "Vollmilchpulver"
+    ],
+    "geschmack": 2.0,
+    "eff_protein_pct": 35.26,
+    "scores": {
+      "protein_kcal": 29.34,
+      "zucker": 23.89,
+      "fett": 7.66,
+      "kollagen": 4.0,
+      "naehrwert": 64.89,
+      "geschmack": 20.0,
+      "preis": 16.0,
+      "gesamt": 42.05
+    },
+    "rank_naehrwert": 35,
+    "rank_geschmack": 103,
+    "rank_preis": 102,
+    "rank_gesamt": 100,
+    "ean": "1234567890171"
+  },
+  {
+    "name": "Crunchy Protein Bar Weiße Schokolade Erdbeer  33%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 187.0,
+      "fett_g": 9.3,
+      "kohlen_g": 16.0,
+      "zucker_g": 2.0,
+      "eiweiss_g": 14.9
+    },
+    "pro_100g": {
+      "kcal": 415.0,
+      "fett_g": 20.6,
+      "kohlen_g": 35.5,
+      "zucker_g": 4.5,
+      "eiweiss_g": 33.1
+    },
+    "kollagen_pct": 45.0,
+    "palmoil": false,
+    "preis_eur": 1.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 4.42,
+    "proteinquellen": [
+      "Vollmilchpulver",
+      "Kollagenhydrolysat (Rind)",
+      "Milcheiweiß",
+      "Reismehl",
+      "Molkenproteinisolat"
+    ],
+    "geschmack": 2.0,
+    "eff_protein_pct": 17.55,
+    "scores": {
+      "protein_kcal": 1.66,
+      "zucker": 21.68,
+      "fett": 4.91,
+      "kollagen": 0.0,
+      "naehrwert": 28.25,
+      "geschmack": 20.0,
+      "preis": 0.0,
+      "gesamt": 22.12
+    },
+    "rank_naehrwert": 102,
+    "rank_geschmack": 104,
+    "rank_preis": 103,
+    "rank_gesamt": 107,
+    "ean": "1234567890172"
+  },
+  {
+    "name": "Crunchy Bar Nuss Nougat 32,4%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 194.0,
+      "fett_g": 10.8,
+      "kohlen_g": 13.9,
+      "zucker_g": 1.6,
+      "eiweiss_g": 14.6
+    },
+    "pro_100g": {
+      "kcal": 431.0,
+      "fett_g": 24.1,
+      "kohlen_g": 30.8,
+      "zucker_g": 3.5,
+      "eiweiss_g": 32.4
+    },
+    "kollagen_pct": 45.0,
+    "palmoil": false,
+    "preis_eur": 1.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 4.42,
+    "proteinquellen": [
+      "Vollmilchpulver",
+      "Kollagenhydrolysat (Rind)",
+      "Magermilchpulver",
+      "Calcium-Caseinat",
+      "Molkenproteinisolat",
+      "Haselnusskerne"
+    ],
+    "geschmack": 4.5,
+    "eff_protein_pct": 16.54,
+    "scores": {
+      "protein_kcal": 0.08,
+      "zucker": 22.6,
+      "fett": 3.63,
+      "kollagen": 0.0,
+      "naehrwert": 26.31,
+      "geschmack": 45.0,
+      "preis": 0.0,
+      "gesamt": 31.16
+    },
+    "rank_naehrwert": 107,
+    "rank_geschmack": 74,
+    "rank_preis": 104,
+    "rank_gesamt": 106,
+    "ean": "1234567890173"
+  },
+  {
+    "name": "Crunchy Protein Bar Nuss Nougat  32%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 194.0,
+      "fett_g": 10.8,
+      "kohlen_g": 13.9,
+      "zucker_g": 1.5,
+      "eiweiss_g": 14.5
+    },
+    "pro_100g": {
+      "kcal": 431.0,
+      "fett_g": 24.1,
+      "kohlen_g": 30.8,
+      "zucker_g": 3.4,
+      "eiweiss_g": 32.3
+    },
+    "kollagen_pct": 45.0,
+    "palmoil": false,
+    "preis_eur": 1.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 4.42,
+    "proteinquellen": [
+      "Vollmilchpulver",
+      "Kollagenhydrolysat (Rind)",
+      "Magermilchpulver",
+      "Calcium-Caseinat",
+      "Molkenproteinisolat",
+      "Haselnusskerne"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 16.49,
+    "scores": {
+      "protein_kcal": 0.0,
+      "zucker": 22.69,
+      "fett": 3.63,
+      "kollagen": 0.0,
+      "naehrwert": 26.32,
+      "geschmack": 50.0,
+      "preis": 0.0,
+      "gesamt": 33.16
+    },
+    "rank_naehrwert": 106,
+    "rank_geschmack": 72,
+    "rank_preis": 105,
+    "rank_gesamt": 105,
+    "ean": "1234567890174"
+  },
+  {
+    "name": "Crunchy Protein Bar Erdnuss-Karamel 32%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 181.0,
+      "fett_g": 9.2,
+      "kohlen_g": 12.6,
+      "zucker_g": 1.5,
+      "eiweiss_g": 14.5
+    },
+    "pro_100g": {
+      "kcal": 402.0,
+      "fett_g": 20.5,
+      "kohlen_g": 27.9,
+      "zucker_g": 3.3,
+      "eiweiss_g": 32.3
+    },
+    "kollagen_pct": 45.0,
+    "palmoil": false,
+    "preis_eur": 1.49,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 3.31,
+    "proteinquellen": [
+      "Vollmilchpulver",
+      "Kollagenhydrolysat (Rind)",
+      "Erbseneiweiß",
+      "Milcheiweiß",
+      "Erdnüsse",
+      "Molkenproteinisolat"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 17.68,
+    "scores": {
+      "protein_kcal": 1.86,
+      "zucker": 22.79,
+      "fett": 4.95,
+      "kollagen": 0.0,
+      "naehrwert": 29.6,
+      "geschmack": 70.0,
+      "preis": 40.36,
+      "gesamt": 46.84
+    },
+    "rank_naehrwert": 101,
+    "rank_geschmack": 31,
+    "rank_preis": 99,
+    "rank_gesamt": 93,
+    "ean": "1234567890175"
+  },
+  {
+    "name": "Crunchy Protein Bar Cookie White Chocolate 31%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 186.0,
+      "fett_g": 9.6,
+      "kohlen_g": 16.0,
+      "zucker_g": 1.8,
+      "eiweiss_g": 14.0
+    },
+    "pro_100g": {
+      "kcal": 414.0,
+      "fett_g": 21.3,
+      "kohlen_g": 35.5,
+      "zucker_g": 4.1,
+      "eiweiss_g": 31.1
+    },
+    "kollagen_pct": 45.0,
+    "palmoil": false,
+    "preis_eur": 1.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 4.42,
+    "proteinquellen": [
+      "Vollmilchpulver",
+      "Kollagenhydrolysat (Rind)",
+      "Calcium-Caseinat",
+      "Molkenproteinisolat"
+    ],
+    "geschmack": 7.5,
+    "eff_protein_pct": 16.53,
+    "scores": {
+      "protein_kcal": 0.06,
+      "zucker": 22.05,
+      "fett": 4.65,
+      "kollagen": 0.0,
+      "naehrwert": 26.76,
+      "geschmack": 75.0,
+      "preis": 0.0,
+      "gesamt": 43.38
+    },
+    "rank_naehrwert": 105,
+    "rank_geschmack": 18,
+    "rank_preis": 106,
+    "rank_gesamt": 97,
+    "ean": "1234567890176"
+  },
+  {
+    "name": "Crunchy Protein Bar Cookie Milk Chocolate 31%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 186.0,
+      "fett_g": 9.4,
+      "kohlen_g": 15.8,
+      "zucker_g": 1.5,
+      "eiweiss_g": 13.9
+    },
+    "pro_100g": {
+      "kcal": 413.0,
+      "fett_g": 21.0,
+      "kohlen_g": 35.0,
+      "zucker_g": 3.4,
+      "eiweiss_g": 31.0
+    },
+    "kollagen_pct": 45.0,
+    "palmoil": false,
+    "preis_eur": 1.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 4.42,
+    "proteinquellen": [
+      "Vollmilchpulver",
+      "Kollagenhydrolysat (Rind)",
+      "Magermilchpulver",
+      "Calcium-Caseinat",
+      "Molkenproteinisolat"
+    ],
+    "geschmack": 9.0,
+    "eff_protein_pct": 16.51,
+    "scores": {
+      "protein_kcal": 0.03,
+      "zucker": 22.69,
+      "fett": 4.76,
+      "kollagen": 0.0,
+      "naehrwert": 27.48,
+      "geschmack": 90.0,
+      "preis": 0.0,
+      "gesamt": 49.74
+    },
+    "rank_naehrwert": 103,
+    "rank_geschmack": 6,
+    "rank_preis": 107,
+    "rank_gesamt": 86,
+    "ean": "1234567890177"
+  },
+  {
+    "name": "Protein Bar Banane 32%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 179.0,
+      "fett_g": 5.6,
+      "kohlen_g": 17.6,
+      "zucker_g": 9.4,
+      "eiweiss_g": 14.4
+    },
+    "pro_100g": {
+      "kcal": 398.0,
+      "fett_g": 12.5,
+      "kohlen_g": 39.0,
+      "zucker_g": 21.0,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 15.0,
+    "palmoil": false,
+    "preis_eur": 1.29,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.87,
+    "proteinquellen": [
+      "Vollmilchpulver",
+      "Milcheiweiß",
+      "Sojaeiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Molkeneiweiß"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 27.34,
+    "scores": {
+      "protein_kcal": 16.96,
+      "zucker": 6.46,
+      "fett": 7.88,
+      "kollagen": 8.0,
+      "naehrwert": 39.3,
+      "geschmack": 60.0,
+      "preis": 56.36,
+      "gesamt": 49.29
+    },
+    "rank_naehrwert": 95,
+    "rank_geschmack": 47,
+    "rank_preis": 91,
+    "rank_gesamt": 88,
+    "ean": "1234567890178"
+  },
+  {
+    "name": "Protein Bar Schokolade 32%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 185.0,
+      "fett_g": 6.3,
+      "kohlen_g": 17.6,
+      "zucker_g": 9.4,
+      "eiweiss_g": 14.4
+    },
+    "pro_100g": {
+      "kcal": 412.0,
+      "fett_g": 14.0,
+      "kohlen_g": 39.0,
+      "zucker_g": 21.0,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.29,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.87,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Vollmilchpulver",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweiß"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 24.85,
+    "scores": {
+      "protein_kcal": 13.07,
+      "zucker": 6.46,
+      "fett": 7.33,
+      "kollagen": 4.0,
+      "naehrwert": 30.86,
+      "geschmack": 50.0,
+      "preis": 56.36,
+      "gesamt": 41.07
+    },
+    "rank_naehrwert": 100,
+    "rank_geschmack": 71,
+    "rank_preis": 92,
+    "rank_gesamt": 103,
+    "ean": "1234567890179"
+  },
+  {
+    "name": "Protein Bar Kokos 32%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 176.0,
+      "fett_g": 5.0,
+      "kohlen_g": 18.4,
+      "zucker_g": 12.6,
+      "eiweiss_g": 14.4
+    },
+    "pro_100g": {
+      "kcal": 392.0,
+      "fett_g": 11.0,
+      "kohlen_g": 41.0,
+      "zucker_g": 28.0,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.29,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.87,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Vollmilchpulver",
+      "Kollagenhydrolysat (Rind)",
+      "Hühnereieiweißpulver"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 26.12,
+    "scores": {
+      "protein_kcal": 15.05,
+      "zucker": 0.0,
+      "fett": 8.42,
+      "kollagen": 4.0,
+      "naehrwert": 27.47,
+      "geschmack": 60.0,
+      "preis": 56.36,
+      "gesamt": 43.37
+    },
+    "rank_naehrwert": 104,
+    "rank_geschmack": 48,
+    "rank_preis": 93,
+    "rank_gesamt": 98,
+    "ean": "1234567890180"
+  },
+  {
+    "name": "Vegan Protein Bar Mandel Keks 26%",
+    "shop": "NettoEdeka",
+    "pro_riegel": {
+      "kcal": 136.0,
+      "fett_g": 6.7,
+      "kohlen_g": 8.4,
+      "zucker_g": 0.6,
+      "eiweiss_g": 9.1
+    },
+    "pro_100g": {
+      "kcal": 390.0,
+      "fett_g": 19.0,
+      "kohlen_g": 24.0,
+      "zucker_g": 1.7,
+      "eiweiss_g": 26.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 1.29,
+    "gewicht_g": 35.0,
+    "preis_per_100g": 3.69,
+    "proteinquellen": [
+      "Erbseneiweiß",
+      "Rapssamenprotein",
+      "Ackerbohneneiweiß",
+      "Mandeln"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 26.67,
+    "scores": {
+      "protein_kcal": 15.91,
+      "zucker": 24.26,
+      "fett": 5.49,
+      "kollagen": 15,
+      "naehrwert": 60.66,
+      "geschmack": 50.0,
+      "preis": 26.55,
+      "gesamt": 52.98
+    },
+    "rank_naehrwert": 47,
+    "rank_geschmack": 57,
+    "rank_preis": 100,
+    "rank_gesamt": 78,
+    "ean": "1234567890181"
+  },
+  {
+    "name": "Protein Bar  Vanille-Joghurt 50%",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 173.0,
+      "fett_g": 6.3,
+      "kohlen_g": 10.3,
+      "zucker_g": 0.9,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 385.0,
+      "fett_g": 14.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 2.0,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.83,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.84,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweiß Knusperstücke"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 41.56,
+    "scores": {
+      "protein_kcal": 39.18,
+      "zucker": 23.99,
+      "fett": 7.33,
+      "kollagen": 4.0,
+      "naehrwert": 74.5,
+      "geschmack": 30.0,
+      "preis": 93.82,
+      "gesamt": 58.63
+    },
+    "rank_naehrwert": 28,
+    "rank_geschmack": 90,
+    "rank_preis": 12,
+    "rank_gesamt": 50,
+    "ean": "1234567890182"
+  },
+  {
+    "name": "Protein Bar Cookies&Cream 50%",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 172.0,
+      "fett_g": 5.8,
+      "kohlen_g": 10.8,
+      "zucker_g": 0.9,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 382.0,
+      "fett_g": 13.0,
+      "kohlen_g": 24.0,
+      "zucker_g": 2.0,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.83,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.84,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweiß Knusperstücke"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 41.88,
+    "scores": {
+      "protein_kcal": 39.68,
+      "zucker": 23.99,
+      "fett": 7.69,
+      "kollagen": 4.0,
+      "naehrwert": 75.36,
+      "geschmack": 30.0,
+      "preis": 93.82,
+      "gesamt": 59.06
+    },
+    "rank_naehrwert": 25,
+    "rank_geschmack": 88,
+    "rank_preis": 13,
+    "rank_gesamt": 49,
+    "ean": "1234567890183"
+  },
+  {
+    "name": "Protein Bar Brownie-Schoko 50%",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 170.0,
+      "fett_g": 5.8,
+      "kohlen_g": 10.3,
+      "zucker_g": 0.9,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 378.0,
+      "fett_g": 13.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 1.9,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.83,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.84,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweiß Knusperstücke"
+    ],
+    "geschmack": 2.0,
+    "eff_protein_pct": 42.33,
+    "scores": {
+      "protein_kcal": 40.39,
+      "zucker": 24.08,
+      "fett": 7.69,
+      "kollagen": 4.0,
+      "naehrwert": 76.16,
+      "geschmack": 20.0,
+      "preis": 93.82,
+      "gesamt": 55.46
+    },
+    "rank_naehrwert": 23,
+    "rank_geschmack": 102,
+    "rank_preis": 14,
+    "rank_gesamt": 70,
+    "ean": "1234567890184"
+  },
+  {
+    "name": "Protein Bar Stracciatella 50%",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 157.0,
+      "fett_g": 4.1,
+      "kohlen_g": 11.2,
+      "zucker_g": 0.6,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 348.0,
+      "fett_g": 9.1,
+      "kohlen_g": 24.8,
+      "zucker_g": 1.3,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.95,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.11,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Sojaeiweiß Knusperstücke"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 45.98,
+    "scores": {
+      "protein_kcal": 46.09,
+      "zucker": 24.63,
+      "fett": 9.12,
+      "kollagen": 4.0,
+      "naehrwert": 83.84,
+      "geschmack": 60.0,
+      "preis": 84.0,
+      "gesamt": 74.32
+    },
+    "rank_naehrwert": 6,
+    "rank_geschmack": 35,
+    "rank_preis": 40,
+    "rank_gesamt": 4,
+    "ean": "1234567890185"
+  },
+  {
+    "name": "Creamy Bar Cookies&Cream 34%",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 149.0,
+      "fett_g": 6.4,
+      "kohlen_g": 12.4,
+      "zucker_g": 1.2,
+      "eiweiss_g": 13.7
+    },
+    "pro_100g": {
+      "kcal": 373.0,
+      "fett_g": 15.9,
+      "kohlen_g": 31.1,
+      "zucker_g": 3.0,
+      "eiweiss_g": 34.2
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.09,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.73,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)"
+    ],
+    "geschmack": 1.0,
+    "eff_protein_pct": 29.34,
+    "scores": {
+      "protein_kcal": 20.08,
+      "zucker": 23.06,
+      "fett": 6.63,
+      "kollagen": 4.0,
+      "naehrwert": 53.77,
+      "geschmack": 10.0,
+      "preis": 61.45,
+      "gesamt": 37.03
+    },
+    "rank_naehrwert": 65,
+    "rank_geschmack": 106,
+    "rank_preis": 89,
+    "rank_gesamt": 104,
+    "ean": "1234567890186"
+  },
+  {
+    "name": "Creamy Bar Caramel Fudge Brownie 32%",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 150.0,
+      "fett_g": 6.4,
+      "kohlen_g": 13.2,
+      "zucker_g": 1.2,
+      "eiweiss_g": 13.2
+    },
+    "pro_100g": {
+      "kcal": 376.0,
+      "fett_g": 16.0,
+      "kohlen_g": 33.0,
+      "zucker_g": 3.0,
+      "eiweiss_g": 33.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.09,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 2.73,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Reismehl/Milcheiweiß Crispies"
+    ],
+    "geschmack": 4.0,
+    "eff_protein_pct": 28.09,
+    "scores": {
+      "protein_kcal": 18.13,
+      "zucker": 23.06,
+      "fett": 6.59,
+      "kollagen": 4.0,
+      "naehrwert": 51.78,
+      "geschmack": 40.0,
+      "preis": 61.45,
+      "gesamt": 48.04
+    },
+    "rank_naehrwert": 71,
+    "rank_geschmack": 78,
+    "rank_preis": 90,
+    "rank_gesamt": 91,
+    "ean": "1234567890187"
+  },
+  {
+    "name": "Vegan Chocolate Brownie 26%",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 152.0,
+      "fett_g": 7.4,
+      "kohlen_g": 9.2,
+      "zucker_g": 0.6,
+      "eiweiss_g": 10.4
+    },
+    "pro_100g": {
+      "kcal": 379.0,
+      "fett_g": 18.5,
+      "kohlen_g": 23.0,
+      "zucker_g": 1.5,
+      "eiweiss_g": 26.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.75,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 1.88,
+    "proteinquellen": [
+      "Erbseneiweiß",
+      "Rapssamenprotein",
+      "Ackerbohneneiweiß"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 27.44,
+    "scores": {
+      "protein_kcal": 17.11,
+      "zucker": 24.45,
+      "fett": 5.68,
+      "kollagen": 15,
+      "naehrwert": 62.24,
+      "geschmack": 60.0,
+      "preis": 92.36,
+      "gesamt": 64.36
+    },
+    "rank_naehrwert": 41,
+    "rank_geschmack": 39,
+    "rank_preis": 18,
+    "rank_gesamt": 31,
+    "ean": "1234567890188"
+  },
+  {
+    "name": "Vegan Cookies&Cream 26%",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 149.0,
+      "fett_g": 6.8,
+      "kohlen_g": 9.2,
+      "zucker_g": 0.7,
+      "eiweiss_g": 10.4
+    },
+    "pro_100g": {
+      "kcal": 372.0,
+      "fett_g": 17.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 1.7,
+      "eiweiss_g": 26.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.75,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 1.88,
+    "proteinquellen": [
+      "Erbseneiweiß",
+      "Rapssamenprotein",
+      "Ackerbohneneiweiß"
+    ],
+    "geschmack": 1.0,
+    "eff_protein_pct": 27.96,
+    "scores": {
+      "protein_kcal": 17.93,
+      "zucker": 24.26,
+      "fett": 6.23,
+      "kollagen": 15,
+      "naehrwert": 63.42,
+      "geschmack": 10.0,
+      "preis": 92.36,
+      "gesamt": 44.95
+    },
+    "rank_naehrwert": 37,
+    "rank_geschmack": 105,
+    "rank_preis": 19,
+    "rank_gesamt": 95,
+    "ean": "1234567890189"
+  },
+  {
+    "name": "Vegan Lemon Cake 26%",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 146.0,
+      "fett_g": 6.4,
+      "kohlen_g": 9.6,
+      "zucker_g": 0.6,
+      "eiweiss_g": 10.4
+    },
+    "pro_100g": {
+      "kcal": 364.0,
+      "fett_g": 16.0,
+      "kohlen_g": 24.0,
+      "zucker_g": 1.6,
+      "eiweiss_g": 26.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.75,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 1.88,
+    "proteinquellen": [
+      "Erbseneiweiß",
+      "Rapssamenprotein",
+      "Ackerbohneneiweiß"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 28.57,
+    "scores": {
+      "protein_kcal": 18.88,
+      "zucker": 24.35,
+      "fett": 6.59,
+      "kollagen": 15,
+      "naehrwert": 64.82,
+      "geschmack": 70.0,
+      "preis": 92.36,
+      "gesamt": 69.65
+    },
+    "rank_naehrwert": 36,
+    "rank_geschmack": 20,
+    "rank_preis": 20,
+    "rank_gesamt": 13,
+    "ean": "1234567890190"
+  },
+  {
+    "name": "Sportyfeel Crunchy Protein Bar  Schokolade 15,3g",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 167.0,
+      "fett_g": 6.3,
+      "kohlen_g": 16.2,
+      "zucker_g": 2.2,
+      "eiweiss_g": 15.3
+    },
+    "pro_100g": {
+      "kcal": 372.0,
+      "fett_g": 14.0,
+      "kohlen_g": 36.0,
+      "zucker_g": 4.8,
+      "eiweiss_g": 34.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.64,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Rinderkollagen",
+      "Sojaeiweißisolat",
+      "Erbseneiweiß",
+      "Sojaeiweiß Crispies"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 29.25,
+    "scores": {
+      "protein_kcal": 19.94,
+      "zucker": 21.4,
+      "fett": 7.33,
+      "kollagen": 4.0,
+      "naehrwert": 52.67,
+      "geschmack": 50.0,
+      "preis": 64.73,
+      "gesamt": 52.81
+    },
+    "rank_naehrwert": 69,
+    "rank_geschmack": 65,
+    "rank_preis": 82,
+    "rank_gesamt": 79,
+    "ean": "1234567890191"
+  },
+  {
+    "name": "Sportyfeel Crunchy Blast Cookie-Karamell  15g",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 167.0,
+      "fett_g": 6.3,
+      "kohlen_g": 16.2,
+      "zucker_g": 2.2,
+      "eiweiss_g": 15.3
+    },
+    "pro_100g": {
+      "kcal": 372.0,
+      "fett_g": 14.0,
+      "kohlen_g": 36.0,
+      "zucker_g": 4.9,
+      "eiweiss_g": 34.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.64,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Rinderkollagen",
+      "Sojaeiweißisolat",
+      "Erbseneiweiß",
+      "Sojaeiweiß Crispies"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 29.25,
+    "scores": {
+      "protein_kcal": 19.94,
+      "zucker": 21.31,
+      "fett": 7.33,
+      "kollagen": 4.0,
+      "naehrwert": 52.58,
+      "geschmack": 60.0,
+      "preis": 64.73,
+      "gesamt": 56.76
+    },
+    "rank_naehrwert": 70,
+    "rank_geschmack": 44,
+    "rank_preis": 83,
+    "rank_gesamt": 64,
+    "ean": "1234567890192"
+  },
+  {
+    "name": "Sportyyfeel Crunchy Protein Bar Caramel Crisp  16g",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 186.0,
+      "fett_g": 8.0,
+      "kohlen_g": 18.0,
+      "zucker_g": 1.6,
+      "eiweiss_g": 16.0
+    },
+    "pro_100g": {
+      "kcal": 371.0,
+      "fett_g": 16.0,
+      "kohlen_g": 36.0,
+      "zucker_g": 3.3,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 50.0,
+    "preis_per_100g": 2.38,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat (Rind)",
+      "Reismehl/Sojaeiweiß Crispies"
+    ],
+    "geschmack": 4.0,
+    "eff_protein_pct": 27.6,
+    "scores": {
+      "protein_kcal": 17.36,
+      "zucker": 22.79,
+      "fett": 6.59,
+      "kollagen": 4.0,
+      "naehrwert": 50.74,
+      "geschmack": 40.0,
+      "preis": 74.18,
+      "gesamt": 48.79
+    },
+    "rank_naehrwert": 74,
+    "rank_geschmack": 79,
+    "rank_preis": 70,
+    "rank_gesamt": 90,
+    "ean": "1234567890193"
+  },
+  {
+    "name": "Sportyfeel Crunchy Protein Bar Erdnuss-Karamell  16g",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 194.0,
+      "fett_g": 10.0,
+      "kohlen_g": 12.0,
+      "zucker_g": 2.1,
+      "eiweiss_g": 16.0
+    },
+    "pro_100g": {
+      "kcal": 389.0,
+      "fett_g": 20.0,
+      "kohlen_g": 24.0,
+      "zucker_g": 4.2,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 50.0,
+    "preis_per_100g": 2.38,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Erdnüsse",
+      "Kollagenhydrolysat (Rind)"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 26.32,
+    "scores": {
+      "protein_kcal": 15.36,
+      "zucker": 21.96,
+      "fett": 5.13,
+      "kollagen": 4.0,
+      "naehrwert": 46.45,
+      "geschmack": 50.0,
+      "preis": 74.18,
+      "gesamt": 50.64
+    },
+    "rank_naehrwert": 83,
+    "rank_geschmack": 67,
+    "rank_preis": 71,
+    "rank_gesamt": 81,
+    "ean": "1234567890194"
+  },
+  {
+    "name": "Sportyfeel Milky Bar Schokolade  13g",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 161.0,
+      "fett_g": 6.8,
+      "kohlen_g": 18.4,
+      "zucker_g": 1.2,
+      "eiweiss_g": 13.1
+    },
+    "pro_100g": {
+      "kcal": 357.0,
+      "fett_g": 15.0,
+      "kohlen_g": 41.0,
+      "zucker_g": 2.6,
+      "eiweiss_g": 29.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Molkeneiweißkonzentrat"
+    ],
+    "geschmack": 6.5,
+    "eff_protein_pct": 32.49,
+    "scores": {
+      "protein_kcal": 25.01,
+      "zucker": 23.43,
+      "fett": 6.96,
+      "kollagen": 15,
+      "naehrwert": 70.4,
+      "geschmack": 65.0,
+      "preis": 80.73,
+      "gesamt": 69.27
+    },
+    "rank_naehrwert": 30,
+    "rank_geschmack": 33,
+    "rank_preis": 62,
+    "rank_gesamt": 14,
+    "ean": "1234567890195"
+  },
+  {
+    "name": "Sportyfeel Milky Bar Cookie  13g",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 165.0,
+      "fett_g": 7.2,
+      "kohlen_g": 18.4,
+      "zucker_g": 1.2,
+      "eiweiss_g": 13.1
+    },
+    "pro_100g": {
+      "kcal": 366.0,
+      "fett_g": 16.0,
+      "kohlen_g": 41.0,
+      "zucker_g": 2.6,
+      "eiweiss_g": 29.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Molkeneiweißkonzentrat"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 31.69,
+    "scores": {
+      "protein_kcal": 23.76,
+      "zucker": 23.43,
+      "fett": 6.59,
+      "kollagen": 15,
+      "naehrwert": 68.78,
+      "geschmack": 60.0,
+      "preis": 80.73,
+      "gesamt": 66.46
+    },
+    "rank_naehrwert": 32,
+    "rank_geschmack": 38,
+    "rank_preis": 63,
+    "rank_gesamt": 24,
+    "ean": "1234567890196"
+  },
+  {
+    "name": "Sportyfeel Milky Bar Kokos  13g",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 165.0,
+      "fett_g": 7.2,
+      "kohlen_g": 19.4,
+      "zucker_g": 1.0,
+      "eiweiss_g": 12.6
+    },
+    "pro_100g": {
+      "kcal": 366.0,
+      "fett_g": 16.0,
+      "kohlen_g": 43.0,
+      "zucker_g": 2.3,
+      "eiweiss_g": 28.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Molkeneiweißkonzentrat"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 30.6,
+    "scores": {
+      "protein_kcal": 22.05,
+      "zucker": 23.71,
+      "fett": 6.59,
+      "kollagen": 15,
+      "naehrwert": 67.35,
+      "geschmack": 50.0,
+      "preis": 80.73,
+      "gesamt": 61.75
+    },
+    "rank_naehrwert": 34,
+    "rank_geschmack": 55,
+    "rank_preis": 64,
+    "rank_gesamt": 41,
+    "ean": "1234567890197"
+  },
+  {
+    "name": "Collagen Riegel Himbeergeschmack",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 162.0,
+      "fett_g": 7.2,
+      "kohlen_g": 14.2,
+      "zucker_g": 0.4,
+      "eiweiss_g": 12.0
+    },
+    "pro_100g": {
+      "kcal": 406.0,
+      "fett_g": 18.1,
+      "kohlen_g": 35.4,
+      "zucker_g": 1.0,
+      "eiweiss_g": 30.0
+    },
+    "kollagen_pct": 12.5,
+    "palmoil": false,
+    "preis_eur": 1.29,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 3.23,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Sojaeiweißisolat",
+      "Kollagenhydrolysat (Rind)"
+    ],
+    "geschmack": 6.5,
+    "eff_protein_pct": 25.86,
+    "scores": {
+      "protein_kcal": 14.65,
+      "zucker": 24.91,
+      "fett": 5.82,
+      "kollagen": 10.0,
+      "naehrwert": 55.38,
+      "geschmack": 65.0,
+      "preis": 43.27,
+      "gesamt": 58.02
+    },
+    "rank_naehrwert": 62,
+    "rank_geschmack": 34,
+    "rank_preis": 94,
+    "rank_gesamt": 54,
+    "ean": "1234567890198"
+  },
+  {
+    "name": "Collagen Riegel Kokos",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 164.0,
+      "fett_g": 8.0,
+      "kohlen_g": 11.8,
+      "zucker_g": 0.4,
+      "eiweiss_g": 12.1
+    },
+    "pro_100g": {
+      "kcal": 409.0,
+      "fett_g": 20.1,
+      "kohlen_g": 29.4,
+      "zucker_g": 1.1,
+      "eiweiss_g": 30.2
+    },
+    "kollagen_pct": 12.5,
+    "palmoil": false,
+    "preis_eur": 1.29,
+    "gewicht_g": 40.0,
+    "preis_per_100g": 3.23,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Sojaeiweißisolat",
+      "Kollagenhydrolysat (Rind)"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 25.84,
+    "scores": {
+      "protein_kcal": 14.61,
+      "zucker": 24.82,
+      "fett": 5.09,
+      "kollagen": 10.0,
+      "naehrwert": 54.52,
+      "geschmack": 60.0,
+      "preis": 43.27,
+      "gesamt": 55.59
+    },
+    "rank_naehrwert": 63,
+    "rank_geschmack": 42,
+    "rank_preis": 95,
+    "rank_gesamt": 68,
+    "ean": "1234567890199"
+  },
+  {
+    "name": "Sportyfeel Kokos  (3er Pack)",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 169.0,
+      "fett_g": 5.8,
+      "kohlen_g": 10.3,
+      "zucker_g": 0.9,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 376.0,
+      "fett_g": 13.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 1.9,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.83,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.84,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Kollagenhydrolysat"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 42.55,
+    "scores": {
+      "protein_kcal": 40.73,
+      "zucker": 24.08,
+      "fett": 7.69,
+      "kollagen": 4.0,
+      "naehrwert": 76.5,
+      "geschmack": 50.0,
+      "preis": 93.82,
+      "gesamt": 67.63
+    },
+    "rank_naehrwert": 18,
+    "rank_geschmack": 53,
+    "rank_preis": 15,
+    "rank_gesamt": 19,
+    "ean": "1234567890200"
+  },
+  {
+    "name": "Sportyfeel White  Chocolate Crisp  (3er Pack)",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 171.0,
+      "fett_g": 5.8,
+      "kohlen_g": 10.8,
+      "zucker_g": 0.9,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 379.0,
+      "fett_g": 13.0,
+      "kohlen_g": 24.0,
+      "zucker_g": 2.1,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.83,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.84,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Kollagenhydrolysat"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 42.22,
+    "scores": {
+      "protein_kcal": 40.22,
+      "zucker": 23.89,
+      "fett": 7.69,
+      "kollagen": 4.0,
+      "naehrwert": 75.8,
+      "geschmack": 60.0,
+      "preis": 93.82,
+      "gesamt": 71.28
+    },
+    "rank_naehrwert": 24,
+    "rank_geschmack": 37,
+    "rank_preis": 16,
+    "rank_gesamt": 10,
+    "ean": "1234567890201"
+  },
+  {
+    "name": "Sportyfeel  Peanut (3er Pack)",
+    "shop": "Lidl",
+    "pro_riegel": {
+      "kcal": 169.0,
+      "fett_g": 5.8,
+      "kohlen_g": 10.3,
+      "zucker_g": 0.9,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 376.0,
+      "fett_g": 13.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 2.0,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.83,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.84,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Kollagenhydrolysat"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 42.55,
+    "scores": {
+      "protein_kcal": 40.73,
+      "zucker": 23.99,
+      "fett": 7.69,
+      "kollagen": 4.0,
+      "naehrwert": 76.41,
+      "geschmack": 50.0,
+      "preis": 93.82,
+      "gesamt": 67.59
+    },
+    "rank_naehrwert": 20,
+    "rank_geschmack": 54,
+    "rank_preis": 17,
+    "rank_gesamt": 20,
+    "ean": "1234567890202"
+  },
+  {
+    "name": "Filled Chocolate Brownie",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 185.0,
+      "fett_g": 9.0,
+      "kohlen_g": 15.3,
+      "zucker_g": 1.6,
+      "eiweiss_g": 15.3
+    },
+    "pro_100g": {
+      "kcal": 411.0,
+      "fett_g": 20.0,
+      "kohlen_g": 34.0,
+      "zucker_g": 3.6,
+      "eiweiss_g": 34.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.64,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Calciumcaseinat",
+      "Molkenproteinisolat",
+      "Kollagenhydrolysat (Rind)",
+      "Vollmilchpulver"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 26.47,
+    "scores": {
+      "protein_kcal": 15.6,
+      "zucker": 22.51,
+      "fett": 5.13,
+      "kollagen": 4.0,
+      "naehrwert": 47.24,
+      "geschmack": 30.0,
+      "preis": 64.73,
+      "gesamt": 42.09
+    },
+    "rank_naehrwert": 82,
+    "rank_geschmack": 95,
+    "rank_preis": 84,
+    "rank_gesamt": 99,
+    "ean": "1234567890203"
+  },
+  {
+    "name": "Filled Peanut Caramel",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 182.0,
+      "fett_g": 9.4,
+      "kohlen_g": 13.5,
+      "zucker_g": 1.4,
+      "eiweiss_g": 14.4
+    },
+    "pro_100g": {
+      "kcal": 404.0,
+      "fett_g": 21.0,
+      "kohlen_g": 30.0,
+      "zucker_g": 3.1,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.64,
+    "proteinquellen": [
+      "Erdnüsse",
+      "Milcheiweiss",
+      "Calcium-Caseinat",
+      "Molkenproteinisolat",
+      "Kollagenhydrolysat (Rind)",
+      "Magermilchpulver",
+      "Vollmilchpulver"
+    ],
+    "geschmack": 8.5,
+    "eff_protein_pct": 25.35,
+    "scores": {
+      "protein_kcal": 13.85,
+      "zucker": 22.97,
+      "fett": 4.76,
+      "kollagen": 4.0,
+      "naehrwert": 45.58,
+      "geschmack": 85.0,
+      "preis": 64.73,
+      "gesamt": 63.26
+    },
+    "rank_naehrwert": 85,
+    "rank_geschmack": 9,
+    "rank_preis": 85,
+    "rank_gesamt": 37,
+    "ean": "1234567890204"
+  },
+  {
+    "name": "Filled Strawberry Yoghurt",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 185.0,
+      "fett_g": 9.0,
+      "kohlen_g": 15.7,
+      "zucker_g": 1.9,
+      "eiweiss_g": 15.0
+    },
+    "pro_100g": {
+      "kcal": 412.0,
+      "fett_g": 20.0,
+      "kohlen_g": 34.8,
+      "zucker_g": 4.3,
+      "eiweiss_g": 33.4
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.64,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Calciumcaseinat",
+      "Molkenproteinisolat",
+      "Kollagenhydrolysat (Rind)",
+      "Vollmilchpulver"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 25.94,
+    "scores": {
+      "protein_kcal": 14.77,
+      "zucker": 21.86,
+      "fett": 5.13,
+      "kollagen": 4.0,
+      "naehrwert": 45.76,
+      "geschmack": 70.0,
+      "preis": 64.73,
+      "gesamt": 57.35
+    },
+    "rank_naehrwert": 84,
+    "rank_geschmack": 29,
+    "rank_preis": 86,
+    "rank_gesamt": 57,
+    "ean": "1234567890205"
+  },
+  {
+    "name": "Filled Cookie & Milk",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 188.0,
+      "fett_g": 9.4,
+      "kohlen_g": 14.6,
+      "zucker_g": 1.7,
+      "eiweiss_g": 15.9
+    },
+    "pro_100g": {
+      "kcal": 417.0,
+      "fett_g": 20.9,
+      "kohlen_g": 32.5,
+      "zucker_g": 3.7,
+      "eiweiss_g": 35.4
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.64,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Calciumcaseinat",
+      "Molkenproteinisolat",
+      "Kollagenhydrolysat (Rind)",
+      "Vollmilchpulver",
+      "Sojaproteinisolat"
+    ],
+    "geschmack": 7.5,
+    "eff_protein_pct": 27.17,
+    "scores": {
+      "protein_kcal": 16.69,
+      "zucker": 22.42,
+      "fett": 4.8,
+      "kollagen": 4.0,
+      "naehrwert": 47.91,
+      "geschmack": 75.0,
+      "preis": 64.73,
+      "gesamt": 60.43
+    },
+    "rank_naehrwert": 81,
+    "rank_geschmack": 17,
+    "rank_preis": 87,
+    "rank_gesamt": 45,
+    "ean": "1234567890206"
+  },
+  {
+    "name": "Filled Hazelnut-Nougat",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 194.0,
+      "fett_g": 10.8,
+      "kohlen_g": 13.9,
+      "zucker_g": 1.5,
+      "eiweiss_g": 14.5
+    },
+    "pro_100g": {
+      "kcal": 431.0,
+      "fett_g": 24.1,
+      "kohlen_g": 30.8,
+      "zucker_g": 3.4,
+      "eiweiss_g": 32.3
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.64,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Calciumcaseinat",
+      "Molkenproteinisolat",
+      "Kollagenhydrolysat (Rind)",
+      "Magermilchpulver",
+      "Vollmilchpulver",
+      "Haselnüsse"
+    ],
+    "geschmack": 9.0,
+    "eff_protein_pct": 23.98,
+    "scores": {
+      "protein_kcal": 11.71,
+      "zucker": 22.69,
+      "fett": 3.63,
+      "kollagen": 4.0,
+      "naehrwert": 42.03,
+      "geschmack": 90.0,
+      "preis": 64.73,
+      "gesamt": 63.49
+    },
+    "rank_naehrwert": 89,
+    "rank_geschmack": 4,
+    "rank_preis": 88,
+    "rank_gesamt": 36,
+    "ean": "1234567890207"
+  },
+  {
+    "name": "Premium High Protein Chocolate Caramel 50%",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 150.0,
+      "fett_g": 3.4,
+      "kohlen_g": 11.2,
+      "zucker_g": 0.7,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 334.0,
+      "fett_g": 7.6,
+      "kohlen_g": 25.0,
+      "zucker_g": 1.6,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.89,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat",
+      "Calciumcaseinat",
+      "Molkenproteinisolat",
+      "Sojaproteinisolat",
+      "Sojaprotein Crispies",
+      "Vollmilchpulver"
+    ],
+    "geschmack": 4.0,
+    "eff_protein_pct": 47.9,
+    "scores": {
+      "protein_kcal": 49.09,
+      "zucker": 24.35,
+      "fett": 9.67,
+      "kollagen": 4.0,
+      "naehrwert": 87.11,
+      "geschmack": 40.0,
+      "preis": 92.0,
+      "gesamt": 68.75
+    },
+    "rank_naehrwert": 3,
+    "rank_geschmack": 75,
+    "rank_preis": 26,
+    "rank_gesamt": 15,
+    "ean": "1234567890208"
+  },
+  {
+    "name": "Premium High Protein White Chocolate Crisp 50%",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 148.0,
+      "fett_g": 3.5,
+      "kohlen_g": 10.8,
+      "zucker_g": 1.0,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 330.0,
+      "fett_g": 7.7,
+      "kohlen_g": 24.0,
+      "zucker_g": 2.2,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.85,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 1.89,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Kollagenhydrolysat",
+      "Calciumcaseinat",
+      "Molkenproteinisolat",
+      "Sojaproteinisolat",
+      "Sojaprotein Crispies",
+      "Vollmilchpulver"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 48.48,
+    "scores": {
+      "protein_kcal": 50.0,
+      "zucker": 23.8,
+      "fett": 9.63,
+      "kollagen": 4.0,
+      "naehrwert": 87.43,
+      "geschmack": 30.0,
+      "preis": 92.0,
+      "gesamt": 64.92
+    },
+    "rank_naehrwert": 2,
+    "rank_geschmack": 84,
+    "rank_preis": 27,
+    "rank_gesamt": 27,
+    "ean": "1234567890209"
+  },
+  {
+    "name": "High Protein Peanut 30%",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 138.0,
+      "fett_g": 4.0,
+      "kohlen_g": 11.7,
+      "zucker_g": 0.8,
+      "eiweiss_g": 14.4
+    },
+    "pro_100g": {
+      "kcal": 307.0,
+      "fett_g": 8.9,
+      "kohlen_g": 26.0,
+      "zucker_g": 1.7,
+      "eiweiss_g": 32.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.95,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.11,
+    "proteinquellen": [
+      "Erdnüsse",
+      "Milcheiweiss",
+      "Calcium-Caseinat",
+      "Molkenproteinisolat",
+      "Vollmichpulver",
+      "Sojaproteinisolat"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 41.69,
+    "scores": {
+      "protein_kcal": 39.39,
+      "zucker": 24.26,
+      "fett": 9.19,
+      "kollagen": 15,
+      "naehrwert": 87.84,
+      "geschmack": 30.0,
+      "preis": 84.0,
+      "gesamt": 64.32
+    },
+    "rank_naehrwert": 1,
+    "rank_geschmack": 83,
+    "rank_preis": 41,
+    "rank_gesamt": 32,
+    "ean": "1234567890210"
+  },
+  {
+    "name": "High Protein Brownie 30%",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 137.0,
+      "fett_g": 4.3,
+      "kohlen_g": 11.2,
+      "zucker_g": 1.4,
+      "eiweiss_g": 13.5
+    },
+    "pro_100g": {
+      "kcal": 304.0,
+      "fett_g": 9.6,
+      "kohlen_g": 25.0,
+      "zucker_g": 3.0,
+      "eiweiss_g": 30.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.95,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.11,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Calcium-Caseinat",
+      "Molkenproteinisolat",
+      "Vollmichpulver",
+      "Sojaproteinisolat"
+    ],
+    "geschmack": 3.5,
+    "eff_protein_pct": 39.47,
+    "scores": {
+      "protein_kcal": 35.92,
+      "zucker": 23.06,
+      "fett": 8.94,
+      "kollagen": 15,
+      "naehrwert": 82.92,
+      "geschmack": 35.0,
+      "preis": 84.0,
+      "gesamt": 63.86
+    },
+    "rank_naehrwert": 8,
+    "rank_geschmack": 81,
+    "rank_preis": 42,
+    "rank_gesamt": 35,
+    "ean": "1234567890211"
+  },
+  {
+    "name": "High Protein Weiße Schoko Erdnuss",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 223.0,
+      "fett_g": 9.6,
+      "kohlen_g": 14.4,
+      "zucker_g": 1.9,
+      "eiweiss_g": 20.4
+    },
+    "pro_100g": {
+      "kcal": 371.0,
+      "fett_g": 16.0,
+      "kohlen_g": 24.0,
+      "zucker_g": 3.2,
+      "eiweiss_g": 34.0
+    },
+    "kollagen_pct": 25.0,
+    "palmoil": false,
+    "preis_eur": 1.25,
+    "gewicht_g": 60.0,
+    "preis_per_100g": 2.08,
+    "proteinquellen": [
+      "Vollmilchpulver,",
+      "Kollagenhydrolysat,",
+      "Milcheiweisserzeugnis,",
+      "Erdnüsse,",
+      "Molkenproteinisolat",
+      "Calcium-Caseinat,",
+      "Erdnussmark"
+    ],
+    "geschmack": 4.0,
+    "eff_protein_pct": 27.49,
+    "scores": {
+      "protein_kcal": 17.19,
+      "zucker": 22.88,
+      "fett": 6.59,
+      "kollagen": 4.0,
+      "naehrwert": 50.66,
+      "geschmack": 40.0,
+      "preis": 85.09,
+      "gesamt": 49.84
+    },
+    "rank_naehrwert": 75,
+    "rank_geschmack": 80,
+    "rank_preis": 36,
+    "rank_gesamt": 85,
+    "ean": "1234567890212"
+  },
+  {
+    "name": "High Protein Cookie Dough",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 211.0,
+      "fett_g": 7.2,
+      "kohlen_g": 16.8,
+      "zucker_g": 1.9,
+      "eiweiss_g": 21.6
+    },
+    "pro_100g": {
+      "kcal": 351.0,
+      "fett_g": 12.0,
+      "kohlen_g": 28.0,
+      "zucker_g": 3.1,
+      "eiweiss_g": 36.0
+    },
+    "kollagen_pct": 25.0,
+    "palmoil": false,
+    "preis_eur": 1.25,
+    "gewicht_g": 60.0,
+    "preis_per_100g": 2.08,
+    "proteinquellen": [
+      "Vollmilchpulver,",
+      "Kollagenhydrolysat,",
+      "Calcium-Caseinat,",
+      "Milcheiweisserzeugnis,",
+      "Molkenproteinisolat"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 30.77,
+    "scores": {
+      "protein_kcal": 22.32,
+      "zucker": 22.97,
+      "fett": 8.06,
+      "kollagen": 4.0,
+      "naehrwert": 57.35,
+      "geschmack": 50.0,
+      "preis": 85.09,
+      "gesamt": 57.18
+    },
+    "rank_naehrwert": 58,
+    "rank_geschmack": 61,
+    "rank_preis": 37,
+    "rank_gesamt": 58,
+    "ean": "1234567890213"
+  },
+  {
+    "name": "High Protein Kakao Orange",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 215.0,
+      "fett_g": 7.8,
+      "kohlen_g": 15.6,
+      "zucker_g": 2.3,
+      "eiweiss_g": 22.2
+    },
+    "pro_100g": {
+      "kcal": 359.0,
+      "fett_g": 13.0,
+      "kohlen_g": 26.0,
+      "zucker_g": 3.9,
+      "eiweiss_g": 37.0
+    },
+    "kollagen_pct": 25.0,
+    "palmoil": false,
+    "preis_eur": 1.25,
+    "gewicht_g": 60.0,
+    "preis_per_100g": 2.08,
+    "proteinquellen": [
+      "Vollmilchpulver,",
+      "Kollagenhydrolysat,",
+      "Calcium-Caseinat,",
+      "Molkenprotein-Isolat,",
+      "Milcheiweisserzeugnis,",
+      "Sojaprotein-Isolat"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 30.92,
+    "scores": {
+      "protein_kcal": 22.55,
+      "zucker": 22.23,
+      "fett": 7.69,
+      "kollagen": 4.0,
+      "naehrwert": 56.47,
+      "geschmack": 70.0,
+      "preis": 85.09,
+      "gesamt": 64.74
+    },
+    "rank_naehrwert": 61,
+    "rank_geschmack": 26,
+    "rank_preis": 38,
+    "rank_gesamt": 28,
+    "ean": "1234567890214"
+  },
+  {
+    "name": "Lower-Carb Cookies&Cream",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 160.0,
+      "fett_g": 6.3,
+      "kohlen_g": 9.4,
+      "zucker_g": 2.0,
+      "eiweiss_g": 15.8
+    },
+    "pro_100g": {
+      "kcal": 355.0,
+      "fett_g": 14.0,
+      "kohlen_g": 21.0,
+      "zucker_g": 4.5,
+      "eiweiss_g": 35.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.93,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.07,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Sojaproteincrispies",
+      "Sojaproteinisolat",
+      "Gelantine (Rind)",
+      "Magermilchpulver",
+      "Molkenproteinisolat",
+      "Mandelmark"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 31.55,
+    "scores": {
+      "protein_kcal": 23.54,
+      "zucker": 21.68,
+      "fett": 7.33,
+      "kollagen": 4.0,
+      "naehrwert": 56.55,
+      "geschmack": 50.0,
+      "preis": 85.45,
+      "gesamt": 56.82
+    },
+    "rank_naehrwert": 59,
+    "rank_geschmack": 62,
+    "rank_preis": 32,
+    "rank_gesamt": 63,
+    "ean": "1234567890215"
+  },
+  {
+    "name": "Lower-Carb Kokos-Mandel",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 151.0,
+      "fett_g": 5.4,
+      "kohlen_g": 9.0,
+      "zucker_g": 2.2,
+      "eiweiss_g": 15.8
+    },
+    "pro_100g": {
+      "kcal": 336.0,
+      "fett_g": 12.0,
+      "kohlen_g": 20.0,
+      "zucker_g": 4.9,
+      "eiweiss_g": 35.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.93,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.07,
+    "proteinquellen": [
+      "Milcheiweiß",
+      "Molkenproteinisolat",
+      "Gelantine (Rind)",
+      "Mandelmark",
+      "Magermilchpulver"
+    ],
+    "geschmack": 5.5,
+    "eff_protein_pct": 33.33,
+    "scores": {
+      "protein_kcal": 26.32,
+      "zucker": 21.31,
+      "fett": 8.06,
+      "kollagen": 4.0,
+      "naehrwert": 59.69,
+      "geschmack": 55.0,
+      "preis": 85.45,
+      "gesamt": 60.39
+    },
+    "rank_naehrwert": 51,
+    "rank_geschmack": 49,
+    "rank_preis": 33,
+    "rank_gesamt": 46,
+    "ean": "1234567890216"
+  },
+  {
+    "name": "Erdnuss Riegel White Chocolate Salted Peanut",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 226.0,
+      "fett_g": 15.6,
+      "kohlen_g": 13.3,
+      "zucker_g": 1.9,
+      "eiweiss_g": 10.1
+    },
+    "pro_100g": {
+      "kcal": 492.0,
+      "fett_g": 34.0,
+      "kohlen_g": 29.0,
+      "zucker_g": 4.2,
+      "eiweiss_g": 22.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 46.0,
+    "preis_per_100g": 2.59,
+    "proteinquellen": [
+      "Erdnüsse",
+      "Sojaproteinisolat",
+      "Vollmilchpulver"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 17.89,
+    "scores": {
+      "protein_kcal": 2.19,
+      "zucker": 21.96,
+      "fett": 0.0,
+      "kollagen": 15,
+      "naehrwert": 39.15,
+      "geschmack": 70.0,
+      "preis": 66.55,
+      "gesamt": 54.23
+    },
+    "rank_naehrwert": 96,
+    "rank_geschmack": 30,
+    "rank_preis": 77,
+    "rank_gesamt": 75,
+    "ean": "1234567890217"
+  },
+  {
+    "name": "Erdnuss Riegel Dark Chocolate Peanut",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 225.0,
+      "fett_g": 15.6,
+      "kohlen_g": 13.3,
+      "zucker_g": 1.6,
+      "eiweiss_g": 9.7
+    },
+    "pro_100g": {
+      "kcal": 489.0,
+      "fett_g": 34.0,
+      "kohlen_g": 29.0,
+      "zucker_g": 3.4,
+      "eiweiss_g": 21.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 1.19,
+    "gewicht_g": 46.0,
+    "preis_per_100g": 2.59,
+    "proteinquellen": [
+      "Erdnüsse",
+      "Mandeln",
+      "Sojaproteinisolat"
+    ],
+    "geschmack": 8.0,
+    "eff_protein_pct": 17.18,
+    "scores": {
+      "protein_kcal": 1.08,
+      "zucker": 22.69,
+      "fett": 0.0,
+      "kollagen": 15,
+      "naehrwert": 38.77,
+      "geschmack": 80.0,
+      "preis": 66.55,
+      "gesamt": 58.04
+    },
+    "rank_naehrwert": 97,
+    "rank_geschmack": 15,
+    "rank_preis": 78,
+    "rank_gesamt": 53,
+    "ean": "1234567890218"
+  },
+  {
+    "name": "High Protein Riegel Nougat 3er pack",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 166.0,
+      "fett_g": 6.8,
+      "kohlen_g": 10.3,
+      "zucker_g": 1.7,
+      "eiweiss_g": 16.2
+    },
+    "pro_100g": {
+      "kcal": 369.0,
+      "fett_g": 15.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 3.7,
+      "eiweiss_g": 36.0
+    },
+    "kollagen_pct": 25.0,
+    "palmoil": false,
+    "preis_eur": 0.93,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.07,
+    "proteinquellen": [
+      "Kollagenhydrolysat,",
+      "Calcium-Caseinat,",
+      "Molkenprotein-Isolat,",
+      "Milcheiweisserzeugnis"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 29.27,
+    "scores": {
+      "protein_kcal": 19.97,
+      "zucker": 22.42,
+      "fett": 6.96,
+      "kollagen": 4.0,
+      "naehrwert": 53.35,
+      "geschmack": 50.0,
+      "preis": 85.45,
+      "gesamt": 55.22
+    },
+    "rank_naehrwert": 67,
+    "rank_geschmack": 64,
+    "rank_preis": 34,
+    "rank_gesamt": 72,
+    "ean": "1234567890219"
+  },
+  {
+    "name": "High Protein Riegel Erdbeere",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 175.0,
+      "fett_g": 7.2,
+      "kohlen_g": 13.5,
+      "zucker_g": 1.4,
+      "eiweiss_g": 17.1
+    },
+    "pro_100g": {
+      "kcal": 388.0,
+      "fett_g": 16.0,
+      "kohlen_g": 30.0,
+      "zucker_g": 3.0,
+      "eiweiss_g": 38.0
+    },
+    "kollagen_pct": 25.0,
+    "palmoil": false,
+    "preis_eur": 0.93,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.07,
+    "proteinquellen": [
+      "Kollagenhydrolysat,",
+      "Calcium-Caseinat,",
+      "Molkenprotein-Isolat,",
+      "Sojaprotein-Isolat",
+      "Milcheiweisserzeugnis"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 29.38,
+    "scores": {
+      "protein_kcal": 20.15,
+      "zucker": 23.06,
+      "fett": 6.59,
+      "kollagen": 4.0,
+      "naehrwert": 53.8,
+      "geschmack": 50.0,
+      "preis": 85.45,
+      "gesamt": 55.45
+    },
+    "rank_naehrwert": 64,
+    "rank_geschmack": 63,
+    "rank_preis": 35,
+    "rank_gesamt": 71,
+    "ean": "1234567890220"
+  },
+  {
+    "name": "Vegan Salty-Peanut",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 217.0,
+      "fett_g": 10.4,
+      "kohlen_g": 19.2,
+      "zucker_g": 1.0,
+      "eiweiss_g": 14.8
+    },
+    "pro_100g": {
+      "kcal": 394.0,
+      "fett_g": 19.0,
+      "kohlen_g": 35.0,
+      "zucker_g": 1.8,
+      "eiweiss_g": 27.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 1.35,
+    "gewicht_g": 55.0,
+    "preis_per_100g": 2.45,
+    "proteinquellen": [
+      "Sojaprotein,",
+      "Erbsenprotein,",
+      "Reisprotein,"
+    ],
+    "geschmack": 9.0,
+    "eff_protein_pct": 27.41,
+    "scores": {
+      "protein_kcal": 17.07,
+      "zucker": 24.17,
+      "fett": 5.49,
+      "kollagen": 15,
+      "naehrwert": 61.73,
+      "geschmack": 90.0,
+      "preis": 71.64,
+      "gesamt": 74.03
+    },
+    "rank_naehrwert": 42,
+    "rank_geschmack": 2,
+    "rank_preis": 74,
+    "rank_gesamt": 5,
+    "ean": "1234567890221"
+  },
+  {
+    "name": "Vegan Hazelnut Nougat",
+    "shop": "Aldi",
+    "pro_riegel": {
+      "kcal": 218.0,
+      "fett_g": 10.4,
+      "kohlen_g": 19.2,
+      "zucker_g": 0.9,
+      "eiweiss_g": 14.8
+    },
+    "pro_100g": {
+      "kcal": 396.0,
+      "fett_g": 19.0,
+      "kohlen_g": 35.0,
+      "zucker_g": 1.7,
+      "eiweiss_g": 27.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 1.35,
+    "gewicht_g": 55.0,
+    "preis_per_100g": 2.45,
+    "proteinquellen": [
+      "Sojaprotein,",
+      "Erbsenprotein,",
+      "Reisprotein,"
+    ],
+    "geschmack": 8.5,
+    "eff_protein_pct": 27.27,
+    "scores": {
+      "protein_kcal": 16.85,
+      "zucker": 24.26,
+      "fett": 5.49,
+      "kollagen": 15,
+      "naehrwert": 61.6,
+      "geschmack": 85.0,
+      "preis": 71.64,
+      "gesamt": 71.96
+    },
+    "rank_naehrwert": 43,
+    "rank_geschmack": 7,
+    "rank_preis": 75,
+    "rank_gesamt": 9,
+    "ean": "1234567890222"
+  },
+  {
+    "name": "Level 3 Choco-Brownie",
+    "shop": "Müller",
+    "pro_riegel": {
+      "kcal": 133.0,
+      "fett_g": 6.3,
+      "kohlen_g": 10.5,
+      "zucker_g": 0.8,
+      "eiweiss_g": 10.5
+    },
+    "pro_100g": {
+      "kcal": 381.0,
+      "fett_g": 18.0,
+      "kohlen_g": 30.0,
+      "zucker_g": 2.2,
+      "eiweiss_g": 30.0
+    },
+    "kollagen_pct": 10.0,
+    "palmoil": false,
+    "preis_eur": 0.59,
+    "gewicht_g": 35.0,
+    "preis_per_100g": 1.69,
+    "proteinquellen": [
+      "Molkeneiweisskonzentrat",
+      "Sojaeiweißisolat",
+      "Milcheiwess",
+      "Rinderkollagen"
+    ],
+    "geschmack": 3.0,
+    "eff_protein_pct": 28.35,
+    "scores": {
+      "protein_kcal": 18.54,
+      "zucker": 23.8,
+      "fett": 5.86,
+      "kollagen": 11.0,
+      "naehrwert": 59.2,
+      "geschmack": 30.0,
+      "preis": 99.27,
+      "gesamt": 51.53
+    },
+    "rank_naehrwert": 53,
+    "rank_geschmack": 93,
+    "rank_preis": 10,
+    "rank_gesamt": 80,
+    "ean": "1234567890223"
+  },
+  {
+    "name": "Level 3 Peanut Vegan",
+    "shop": "Müller",
+    "pro_riegel": {
+      "kcal": 135.0,
+      "fett_g": 6.7,
+      "kohlen_g": 8.1,
+      "zucker_g": 0.6,
+      "eiweiss_g": 9.1
+    },
+    "pro_100g": {
+      "kcal": 387.0,
+      "fett_g": 19.0,
+      "kohlen_g": 23.0,
+      "zucker_g": 1.8,
+      "eiweiss_g": 26.0
+    },
+    "kollagen_pct": 0.0,
+    "palmoil": false,
+    "preis_eur": 0.75,
+    "gewicht_g": 35.0,
+    "preis_per_100g": 2.14,
+    "proteinquellen": [
+      "Erbseneiweiss",
+      "Rapssamenprotein",
+      "Ackerbohneneiweiss",
+      "Erdnüsse"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 26.87,
+    "scores": {
+      "protein_kcal": 16.22,
+      "zucker": 24.17,
+      "fett": 5.49,
+      "kollagen": 15,
+      "naehrwert": 60.88,
+      "geschmack": 60.0,
+      "preis": 82.91,
+      "gesamt": 62.73
+    },
+    "rank_naehrwert": 45,
+    "rank_geschmack": 40,
+    "rank_preis": 52,
+    "rank_gesamt": 38,
+    "ean": "1234567890224"
+  },
+  {
+    "name": "Level 4  Haselnuss",
+    "shop": "Müller",
+    "pro_riegel": {
+      "kcal": 233.0,
+      "fett_g": 7.2,
+      "kohlen_g": 20.4,
+      "zucker_g": 12.6,
+      "eiweiss_g": 23.4
+    },
+    "pro_100g": {
+      "kcal": 389.0,
+      "fett_g": 12.0,
+      "kohlen_g": 34.0,
+      "zucker_g": 21.0,
+      "eiweiss_g": 39.0
+    },
+    "kollagen_pct": 25.0,
+    "palmoil": false,
+    "preis_eur": 1.09,
+    "gewicht_g": 60.0,
+    "preis_per_100g": 1.82,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Speisegelatine (Rind)",
+      "Magermilchpulver"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 30.08,
+    "scores": {
+      "protein_kcal": 21.24,
+      "zucker": 6.46,
+      "fett": 8.06,
+      "kollagen": 4.0,
+      "naehrwert": 39.76,
+      "geschmack": 50.0,
+      "preis": 94.55,
+      "gesamt": 49.33
+    },
+    "rank_naehrwert": 93,
+    "rank_geschmack": 70,
+    "rank_preis": 11,
+    "rank_gesamt": 87,
+    "ean": "1234567890225"
+  },
+  {
+    "name": "Level 4 Kokos Mandel",
+    "shop": "Müller",
+    "pro_riegel": {
+      "kcal": 164.0,
+      "fett_g": 6.3,
+      "kohlen_g": 11.7,
+      "zucker_g": 1.8,
+      "eiweiss_g": 18.0
+    },
+    "pro_100g": {
+      "kcal": 365.0,
+      "fett_g": 14.0,
+      "kohlen_g": 26.0,
+      "zucker_g": 3.9,
+      "eiweiss_g": 40.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 1.09,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.42,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Gelatine (Rind)",
+      "Sojaproteincrispies",
+      "Magermilchpulver",
+      "Sojaproteinisolat",
+      "Mandelpaste"
+    ],
+    "geschmack": 7.0,
+    "eff_protein_pct": 35.07,
+    "scores": {
+      "protein_kcal": 29.04,
+      "zucker": 22.23,
+      "fett": 7.33,
+      "kollagen": 4.0,
+      "naehrwert": 62.6,
+      "geschmack": 70.0,
+      "preis": 72.73,
+      "gesamt": 66.57
+    },
+    "rank_naehrwert": 40,
+    "rank_geschmack": 21,
+    "rank_preis": 72,
+    "rank_gesamt": 23,
+    "ean": "1234567890226"
+  },
+  {
+    "name": "Level 4 Deluxe Himbeer Crisp",
+    "shop": "Müller",
+    "pro_riegel": {
+      "kcal": 162.0,
+      "fett_g": 5.8,
+      "kohlen_g": 12.6,
+      "zucker_g": 1.8,
+      "eiweiss_g": 18.0
+    },
+    "pro_100g": {
+      "kcal": 360.0,
+      "fett_g": 13.0,
+      "kohlen_g": 28.0,
+      "zucker_g": 3.9,
+      "eiweiss_g": 40.0
+    },
+    "kollagen_pct": 25.0,
+    "palmoil": false,
+    "preis_eur": 1.09,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.42,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Gelatine",
+      "Sojaproteincrispies",
+      "Magermilchpulver",
+      "Molkenproteinisolat"
+    ],
+    "geschmack": 5.0,
+    "eff_protein_pct": 33.33,
+    "scores": {
+      "protein_kcal": 26.32,
+      "zucker": 22.23,
+      "fett": 7.69,
+      "kollagen": 4.0,
+      "naehrwert": 60.24,
+      "geschmack": 50.0,
+      "preis": 72.73,
+      "gesamt": 57.39
+    },
+    "rank_naehrwert": 48,
+    "rank_geschmack": 58,
+    "rank_preis": 73,
+    "rank_gesamt": 56,
+    "ean": "1234567890227"
+  },
+  {
+    "name": "Delicious 50% Crispy Strawberry",
+    "shop": "Müller",
+    "pro_riegel": {
+      "kcal": 158.0,
+      "fett_g": 4.3,
+      "kohlen_g": 11.2,
+      "zucker_g": 1.6,
+      "eiweiss_g": 22.5
+    },
+    "pro_100g": {
+      "kcal": 352.0,
+      "fett_g": 9.6,
+      "kohlen_g": 25.0,
+      "zucker_g": 3.5,
+      "eiweiss_g": 50.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Gelatine (Rind)",
+      "Molkenproteinisolat",
+      "Sojaproteincrispies",
+      "Magermilchpulver"
+    ],
+    "geschmack": 4.0,
+    "eff_protein_pct": 45.45,
+    "scores": {
+      "protein_kcal": 45.26,
+      "zucker": 22.6,
+      "fett": 8.94,
+      "kollagen": 4.0,
+      "naehrwert": 80.8,
+      "geschmack": 40.0,
+      "preis": 80.73,
+      "gesamt": 64.47
+    },
+    "rank_naehrwert": 11,
+    "rank_geschmack": 76,
+    "rank_preis": 65,
+    "rank_gesamt": 30,
+    "ean": "1234567890228"
+  },
+  {
+    "name": "Proteinriegel  Cookies & Cream Flavour",
+    "shop": "Müller",
+    "pro_riegel": {
+      "kcal": 155.0,
+      "fett_g": 4.0,
+      "kohlen_g": 10.8,
+      "zucker_g": 1.3,
+      "eiweiss_g": 20.7
+    },
+    "pro_100g": {
+      "kcal": 345.0,
+      "fett_g": 8.9,
+      "kohlen_g": 24.0,
+      "zucker_g": 2.9,
+      "eiweiss_g": 46.0
+    },
+    "kollagen_pct": 20.0,
+    "palmoil": false,
+    "preis_eur": 0.99,
+    "gewicht_g": 45.0,
+    "preis_per_100g": 2.2,
+    "proteinquellen": [
+      "Milcheiweiss",
+      "Gelatine (Rind)",
+      "Mandelmark"
+    ],
+    "geschmack": 6.0,
+    "eff_protein_pct": 42.67,
+    "scores": {
+      "protein_kcal": 40.92,
+      "zucker": 23.15,
+      "fett": 9.19,
+      "kollagen": 4.0,
+      "naehrwert": 77.26,
+      "geschmack": 60.0,
+      "preis": 80.73,
+      "gesamt": 70.7
+    },
+    "rank_naehrwert": 16,
+    "rank_geschmack": 36,
+    "rank_preis": 66,
+    "rank_gesamt": 11,
+    "ean": "1234567890229"
+  }
+]
