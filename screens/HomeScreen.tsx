@@ -4,30 +4,15 @@ import {
   FlatList, SafeAreaView, Image,
 } from "react-native";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
-import { RootStackParamList } from "../App";
-import products from "../assets/products.json";
+import { RootStackParamList, RankType } from "../App";
+import { useProducts, Product } from "../lib/ProductsContext";
+import { RANK_TABS, RANK_FIELD } from "../lib/rankTabs";
 import { getProductImageUrl } from "../lib/images";
 import { Colors, Fonts } from "../lib/theme";
 
-type RankType = "gesamt" | "naehrwert" | "geschmack" | "preis";
 type Props = NativeStackScreenProps<RootStackParamList, "Home">;
 
 const INITIAL_COUNT = 5;
-
-const RANK_TABS: { key: RankType; label: string }[] = [
-  { key: "gesamt", label: "Gesamt" },
-  { key: "naehrwert", label: "Nährwert" },
-  { key: "geschmack", label: "Geschmack" },
-  { key: "preis", label: "Preis" },
-];
-
-const RANK_FIELD: Record<RankType, keyof typeof products[0]> = {
-  gesamt: "rank_gesamt",
-  naehrwert: "rank_naehrwert",
-  geschmack: "rank_geschmack",
-  preis: "rank_preis",
-};
-
 
 function rankColor(rank: number) {
   if (rank === 1) return Colors.gold;
@@ -38,24 +23,27 @@ function rankColor(rank: number) {
 }
 
 export default function HomeScreen({ navigation }: Props) {
+  const { products } = useProducts();
   const [activeRank, setActiveRank] = useState<RankType>("gesamt");
   const [showAll, setShowAll] = useState(false);
 
   const sorted = useMemo(() => {
-    const field = RANK_FIELD[activeRank];
+    const field = RANK_FIELD[activeRank] as keyof Product;
     return [...products].sort((a, b) => (a[field] as number) - (b[field] as number));
-  }, [activeRank]);
+  }, [activeRank, products]);
 
   const visible = showAll ? sorted : sorted.slice(0, INITIAL_COUNT);
 
-  const getScore = (item: typeof products[0]) => {
+  const getScore = (item: Product) => {
     if (activeRank === "geschmack") return `${item.geschmack.toFixed(1)}/10`;
     if (activeRank === "gesamt") return item.scores.gesamt.toFixed(0);
     if (activeRank === "naehrwert") return item.scores.naehrwert.toFixed(0);
     return item.scores.preis.toFixed(0);
   };
 
-  const getRank = (item: typeof products[0]) => item[RANK_FIELD[activeRank]] as number;
+  const getRank = (item: Product) => item[RANK_FIELD[activeRank] as keyof Product] as number;
+
+  const activeTab = RANK_TABS.find((t) => t.key === activeRank);
 
   return (
     <SafeAreaView style={styles.safe}>
@@ -65,7 +53,6 @@ export default function HomeScreen({ navigation }: Props) {
         contentContainerStyle={styles.content}
         ListHeaderComponent={
           <View>
-            {/* Tabs */}
             <View style={styles.tabs}>
               {RANK_TABS.map((tab) => (
                 <TouchableOpacity
@@ -79,6 +66,11 @@ export default function HomeScreen({ navigation }: Props) {
                 </TouchableOpacity>
               ))}
             </View>
+            {activeTab && (
+              <Text style={styles.infoText}>
+                {"ⓘ  "}{activeTab.infoTitle}{activeTab.info}
+              </Text>
+            )}
           </View>
         }
         renderItem={({ item }) => {
@@ -89,23 +81,21 @@ export default function HomeScreen({ navigation }: Props) {
               onPress={() => navigation.navigate("Result", { product: item as any })}
               activeOpacity={0.7}
             >
-              <View style={styles.rankCell}>
+              <View style={styles.imageWrap}>
+                <Image
+                  source={{ uri: item.image_url ?? getProductImageUrl(item.ean) ?? "" }}
+                  style={styles.productImage}
+                  defaultSource={require("../assets/images/placeholder.png")}
+                />
                 <View style={styles.rankBadge}>
                   <Text style={styles.rankBadgeText}>#{rank}</Text>
                 </View>
               </View>
-              <View style={styles.imageWrap}>
-                <Image
-                  source={{ uri: getProductImageUrl(item.ean) ?? "" }}
-                  style={styles.productImage}
-                  defaultSource={require("../assets/images/placeholder.png")}
-                />
-              </View>
               <View style={styles.nameWrap}>
-                <Text style={styles.productName} numberOfLines={1}>{item.name}</Text>
+                <Text style={styles.productName} numberOfLines={2}>{item.name}</Text>
                 <Text style={styles.shopText}>{item.shop}</Text>
               </View>
-              <Text style={[styles.scoreText, { color: rankColor(rank) }]}>
+              <Text style={[styles.scoreText, { color: Colors.silver }]}>
                 {getScore(item)}
               </Text>
             </TouchableOpacity>
@@ -126,7 +116,6 @@ export default function HomeScreen({ navigation }: Props) {
         }
       />
 
-      {/* Fixierter Scan-Button */}
       <View style={styles.bottomBar}>
         <TouchableOpacity
           style={styles.scanButton}
@@ -142,7 +131,7 @@ export default function HomeScreen({ navigation }: Props) {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: Colors.background },
   content: { padding: 16, paddingBottom: 8 },
-  tabs: { flexDirection: "row", gap: 8, marginBottom: 16 },
+  tabs: { flexDirection: "row", gap: 8, marginBottom: 10 },
   tab: {
     flex: 1, paddingVertical: 9, borderRadius: 12,
     backgroundColor: Colors.background, alignItems: "center",
@@ -151,25 +140,28 @@ const styles = StyleSheet.create({
   tabActive: { backgroundColor: Colors.background, borderColor: Colors.primary },
   tabText: { color: Colors.textSecondary, fontSize: 12, fontFamily: Fonts.semiBold },
   tabTextActive: { color: Colors.text },
+  infoText: {
+    fontSize: 12, fontFamily: Fonts.regular, color: Colors.textSecondary,
+    lineHeight: 18, marginBottom: 14,
+  },
   row: {
     flexDirection: "row", alignItems: "center",
     backgroundColor: Colors.surface, borderRadius: 14,
-    paddingVertical: 12, paddingHorizontal: 14,
+    paddingVertical: 8, paddingHorizontal: 12,
     borderWidth: 1, borderColor: Colors.border,
   },
-  rankCell: { width: 44, alignItems: "center" },
+  imageWrap: {
+    width: 100, height: 80, borderRadius: 10,
+    backgroundColor: Colors.surfaceAlt, overflow: "hidden",
+  },
+  productImage: { width: 100, height: 80, resizeMode: "cover" },
   rankBadge: {
-    backgroundColor: "#1E1E1E", borderRadius: 20,
-    paddingHorizontal: 6, paddingVertical: 3, minWidth: 36, alignItems: "center",
+    position: "absolute", top: 5, left: 5,
+    backgroundColor: "rgba(0,0,0,0.65)", borderRadius: 8,
+    paddingHorizontal: 5, paddingVertical: 2,
   },
   rankBadgeText: { color: "#FFFFFF", fontSize: 11, fontFamily: Fonts.bold },
-  imageWrap: {
-    width: 42, height: 42, borderRadius: 10,
-    backgroundColor: Colors.surfaceAlt, overflow: "hidden",
-    marginLeft: 10,
-  },
-  productImage: { width: 42, height: 42 },
-  nameWrap: { flex: 1, marginLeft: 12 },
+  nameWrap: { flex: 1, marginLeft: 12, marginRight: 8 },
   productName: { color: Colors.text, fontSize: 13, fontFamily: Fonts.semiBold },
   shopText: { color: Colors.textMuted, fontSize: 11, fontFamily: Fonts.medium, marginTop: 2 },
   scoreText: { fontSize: 14, fontFamily: Fonts.bold, width: 48, textAlign: "right" },

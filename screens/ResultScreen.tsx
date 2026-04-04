@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Image } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { RootStackParamList, RankType } from "../App";
-import { TOTAL_PRODUCTS } from "../lib/findProduct";
 import { getProductImageUrl } from "../lib/images";
 import { CircleScore } from "../components/CircleScore";
 import { Colors, Fonts } from "../lib/theme";
@@ -43,19 +43,20 @@ function RankingPill({ label, rank, onPress }: { label: string; rank: number; on
 }
 
 export default function ResultScreen({ route, navigation }: Props) {
+  const { top } = useSafeAreaInsets();
   const { product } = route.params;
   const { pro_riegel, pro_100g, scores } = product;
   const [nutritionView, setNutritionView] = useState<NutritionView>("riegel");
   const nutr = nutritionView === "riegel" ? pro_riegel : pro_100g;
 
   return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+    <ScrollView style={styles.container} contentContainerStyle={[styles.content, { paddingTop: top + 44 }]}>
       {/* Produktbild */}
       <View style={styles.imageContainer}>
         <Image
-          source={{ uri: getProductImageUrl(product.ean) ?? "" }}
+          source={{ uri: product.image_url ?? getProductImageUrl(product.ean) ?? "" }}
           style={styles.productImage}
-          resizeMode="contain"
+          resizeMode="cover"
           defaultSource={require("../assets/images/placeholder.png")}
         />
         <LinearGradient
@@ -80,7 +81,7 @@ export default function ResultScreen({ route, navigation }: Props) {
       <Text style={styles.sectionTitle}>Platzierung</Text>
       <View style={styles.rankRow}>
         <RankingPill label="Gesamt" rank={product.rank_gesamt} onPress={() => navigation.navigate("Ranking", { rankType: "gesamt", highlightEan: String(product.ean) })} />
-        <RankingPill label="Nährwert" rank={product.rank_naehrwert} onPress={() => navigation.navigate("Ranking", { rankType: "naehrwert", highlightEan: String(product.ean) })} />
+        <RankingPill label="Nährwerte" rank={product.rank_naehrwert} onPress={() => navigation.navigate("Ranking", { rankType: "naehrwert", highlightEan: String(product.ean) })} />
         <RankingPill label="Geschmack" rank={product.rank_geschmack} onPress={() => navigation.navigate("Ranking", { rankType: "geschmack", highlightEan: String(product.ean) })} />
         <RankingPill label="Preis" rank={product.rank_preis} onPress={() => navigation.navigate("Ranking", { rankType: "preis", highlightEan: String(product.ean) })} />
       </View>
@@ -88,7 +89,7 @@ export default function ResultScreen({ route, navigation }: Props) {
       {/* Scores */}
       <Text style={styles.sectionTitle}>Scores</Text>
       <View style={styles.circleRow}>
-        <CircleScore label="Nährwert" value={scores.naehrwert} max={100} color={Colors.info} />
+        <CircleScore label="Nährwerte" value={scores.naehrwert} max={100} color={Colors.info} />
         <CircleScore label="Geschmack" value={product.geschmack} max={10} color={Colors.primary} unit="/10" />
         <CircleScore label="Preis" value={scores.preis} max={100} color={Colors.success} />
       </View>

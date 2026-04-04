@@ -3,12 +3,13 @@ import { View, Text, StyleSheet, TouchableOpacity, ActivityIndicator, Alert } fr
 import { CameraView, useCameraPermissions } from "expo-camera";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../App";
-import { findProductByEan } from "../lib/findProduct";
+import { useProducts } from "../lib/ProductsContext";
 import * as Haptics from "expo-haptics";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Scanner">;
 
 export default function ScannerScreen({ navigation }: Props) {
+  const { findByEan } = useProducts();
   const [permission, requestPermission] = useCameraPermissions();
   const [loading, setLoading] = useState(false);
   const scannedRef = useRef(false);
@@ -35,7 +36,7 @@ export default function ScannerScreen({ navigation }: Props) {
     scannedRef.current = true;
     setLoading(true);
 
-    const product = findProductByEan(data);
+    const product = findByEan(data);
 
     if (!product) {
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);

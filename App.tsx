@@ -17,7 +17,9 @@ import ScannerScreen from "./screens/ScannerScreen";
 import ResultScreen from "./screens/ResultScreen";
 import RankingScreen from "./screens/RankingScreen";
 import { AnimatedSplash } from "./components/AnimatedSplash";
-import { Product } from "./lib/findProduct";
+import { HeaderTitle } from "./components/HeaderTitle";
+import { Product } from "./lib/ProductsContext";
+import { ProductsProvider } from "./lib/ProductsContext";
 import { Colors, Fonts } from "./lib/theme";
 
 export type RankType = "gesamt" | "naehrwert" | "geschmack" | "preis";
@@ -52,11 +54,12 @@ export default function App() {
   return (
     <>
       <StatusBar style="dark" />
+      <ProductsProvider>
       <NavigationContainer>
         <Stack.Navigator
           screenOptions={{
-            headerTransparent: true,
-            headerBlurEffect: "systemUltraThinMaterialLight",
+            headerTransparent: false,
+            headerStyle: { backgroundColor: Colors.primary },
             headerTintColor: Colors.text,
             headerTitleStyle: { fontFamily: Fonts.bold, fontSize: 17, color: Colors.text },
             contentStyle: { backgroundColor: Colors.background },
@@ -66,7 +69,7 @@ export default function App() {
           <Stack.Screen
             name="Home"
             component={HomeScreen}
-            options={{ title: "Scan-A-Bar" }}
+            options={{ headerTitle: () => <HeaderTitle /> }}
           />
           <Stack.Screen
             name="Ranking"
@@ -81,10 +84,11 @@ export default function App() {
           <Stack.Screen
             name="Result"
             component={ResultScreen}
-            options={{ title: "", headerBackButtonDisplayMode: "minimal" }}
+            options={{ headerTitle: () => <HeaderTitle />, headerBackButtonDisplayMode: "minimal" }}
           />
         </Stack.Navigator>
       </NavigationContainer>
+      </ProductsProvider>
       {!splashDone && <AnimatedSplash onFinish={() => setSplashDone(true)} />}
     </>
   );
