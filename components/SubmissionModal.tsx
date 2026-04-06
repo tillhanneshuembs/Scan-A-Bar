@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {
   Modal, View, Text, TextInput, TouchableOpacity, StyleSheet,
-  KeyboardAvoidingView, Platform, ActivityIndicator, ScrollView, Image, Switch,
+  KeyboardAvoidingView, Platform, ActivityIndicator, ScrollView, Image, Linking,
 } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import { Colors, Fonts } from "../lib/theme";
@@ -207,7 +207,7 @@ export function SubmissionModal({ visible, onClose }: { visible: boolean; onClos
 
                 <Text style={styles.consent}>
                   Mit dem Einreichen stimmst du unserer{" "}
-                  <Text style={styles.consentLink}>Datenschutzerklärung</Text>
+                  <Text style={styles.consentLink} onPress={() => Linking.openURL("https://scan-a-bar-backend.vercel.app/datenschutz")}>Datenschutzerklärung</Text>
                   {" "}zu. Bitte stelle sicher, dass deine Fotos keine Personen zeigen.
                 </Text>
 
