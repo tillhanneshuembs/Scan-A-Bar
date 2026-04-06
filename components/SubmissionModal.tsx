@@ -8,21 +8,25 @@ import { Colors, Fonts } from "../lib/theme";
 
 const API_URL = "https://scan-a-bar-backend.vercel.app/api/submissions";
 
+type PalmOil = "yes" | "no" | "unknown";
+
 type Form = {
-  name: string; shop: string; ean: string;
+  name: string; shop: string;
   kcal_riegel: string; fett_riegel: string; kohlen_riegel: string; zucker_riegel: string; eiweiss_riegel: string;
   kcal_100g: string; fett_100g: string; kohlen_100g: string; zucker_100g: string; eiweiss_100g: string;
-  kollagen_pct: string; preis_eur: string; gewicht_g: string; proteinquellen: string;
-  palmoil: boolean;
+  preis_eur: string; gewicht_g: string; proteinquellen: string;
+  palmoil: PalmOil;
 };
 
 const empty: Form = {
-  name: "", shop: "", ean: "",
+  name: "", shop: "",
   kcal_riegel: "", fett_riegel: "", kohlen_riegel: "", zucker_riegel: "", eiweiss_riegel: "",
   kcal_100g: "", fett_100g: "", kohlen_100g: "", zucker_100g: "", eiweiss_100g: "",
-  kollagen_pct: "0", preis_eur: "", gewicht_g: "", proteinquellen: "",
-  palmoil: false,
+  preis_eur: "", gewicht_g: "", proteinquellen: "",
+  palmoil: "unknown",
 };
+
+type ImageState = { uri: string; type: string; name: string } | null;
 
 function Field({ label, value, onChangeText, keyboardType = "default", placeholder }: {
   label: string; value: string; onChangeText: (v: string) => void;
@@ -43,33 +47,83 @@ function Field({ label, value, onChangeText, keyboardType = "default", placehold
   );
 }
 
+function PalmOilPicker({ value, onChange }: { value: PalmOil; onChange: (v: PalmOil) => void }) {
+  const options: { val: PalmOil; label: string }[] = [
+    { val: "yes", label: "Ja" },
+    { val: "no", label: "Nein" },
+    { val: "unknown", label: "Weiß nicht" },
+  ];
+  return (
+    <View style={styles.field}>
+      <Text style={styles.fieldLabel}>Enthält Palmöl</Text>
+      <View style={styles.segmentRow}>
+        {options.map((opt) => (
+          <TouchableOpacity
+            key={opt.val}
+            style={[styles.segmentBtn, value === opt.val && styles.segmentBtnActive]}
+            onPress={() => onChange(opt.val)}
+            activeOpacity={0.7}
+          >
+            <Text style={[styles.segmentText, value === opt.val && styles.segmentTextActive]}>
+              {opt.label}
+            </Text>
+          </TouchableOpacity>
+        ))}
+      </View>
+    </View>
+  );
+}
+
+function PhotoPicker({ label, description, image, onPick }: {
+  label: string; description: string;
+  image: ImageState; onPick: () => void;
+}) {
+  return (
+    <View style={styles.field}>
+      <Text style={styles.fieldLabel}>{label}</Text>
+      <Text style={styles.photoHint}>{description}</Text>
+      <TouchableOpacity style={styles.imagePicker} onPress={onPick} activeOpacity={0.8}>
+        {image ? (
+          <Image source={{ uri: image.uri }} style={styles.imagePreview} />
+        ) : (
+          <Text style={styles.imagePickerText}>Foto auswählen</Text>
+        )}
+      </TouchableOpacity>
+    </View>
+  );
+}
+
 export function SubmissionModal({ visible, onClose }: { visible: boolean; onClose: () => void }) {
   const [form, setForm] = useState<Form>(empty);
-  const [image, setImage] = useState<{ uri: string; type: string; name: string } | null>(null);
+  const [imageFront, setImageFront] = useState<ImageState>(null);
+  const [imageBarcode, setImageBarcode] = useState<ImageState>(null);
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
 
-  const set = (key: keyof Form, val: string | boolean) =>
+  const set = (key: keyof Form, val: string | PalmOil) =>
     setForm((f) => ({ ...f, [key]: val }));
 
-  const pickImage = async () => {
+  const pickImage = async (setter: (img: ImageState) => void) => {
     const result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ["images"], quality: 0.8,
     });
     if (!result.canceled && result.assets[0]) {
       const asset = result.assets[0];
-      setImage({ uri: asset.uri, type: "image/jpeg", name: "photo.jpg" });
+      setter({ uri: asset.uri, type: "image/jpeg", name: "photo.jpg" });
     }
   };
 
   const handleSend = async () => {
-    if (!form.name || !form.shop || !form.preis_eur || !form.gewicht_g) return;
+    if (!canSubmit) return;
     setLoading(true);
     try {
       const data = new FormData();
       Object.entries(form).forEach(([k, v]) => data.append(k, String(v)));
-      if (image) {
-        data.append("image", { uri: image.uri, type: image.type, name: image.name } as any);
+      if (imageFront) {
+        data.append("imageFront", { uri: imageFront.uri, type: imageFront.type, name: "front.jpg" } as any);
+      }
+      if (imageBarcode) {
+        data.append("imageBarcode", { uri: imageBarcode.uri, type: imageBarcode.type, name: "barcode.jpg" } as any);
       }
       await fetch(API_URL, { method: "POST", body: data });
       setSent(true);
@@ -80,12 +134,13 @@ export function SubmissionModal({ visible, onClose }: { visible: boolean; onClos
 
   const handleClose = () => {
     setForm(empty);
-    setImage(null);
+    setImageFront(null);
+    setImageBarcode(null);
     setSent(false);
     onClose();
   };
 
-  const canSubmit = !!(form.name && form.shop && form.ean && form.preis_eur && form.gewicht_g &&
+  const canSubmit = !!(form.name && form.shop && form.preis_eur && form.gewicht_g &&
     form.eiweiss_riegel && form.kcal_riegel && form.eiweiss_100g && form.kcal_100g);
 
   return (
@@ -114,7 +169,6 @@ export function SubmissionModal({ visible, onClose }: { visible: boolean; onClos
                 <Text style={styles.section}>Allgemein</Text>
                 <Field label="Name *" value={form.name} onChangeText={(v) => set("name", v)} placeholder="z.B. Crispy Stracciatella 50%" />
                 <Field label="Shop *" value={form.shop} onChangeText={(v) => set("shop", v)} placeholder="z.B. DM, Lidl, Rossmann" />
-                <Field label="EAN *" value={form.ean} onChangeText={(v) => set("ean", v)} keyboardType="numeric" placeholder="Barcode-Nummer" />
                 <Field label="Gewicht (g) *" value={form.gewicht_g} onChangeText={(v) => set("gewicht_g", v)} keyboardType="decimal-pad" placeholder="z.B. 45" />
                 <Field label="Preis (€) *" value={form.preis_eur} onChangeText={(v) => set("preis_eur", v)} keyboardType="decimal-pad" placeholder="z.B. 1.29" />
 
@@ -133,21 +187,22 @@ export function SubmissionModal({ visible, onClose }: { visible: boolean; onClos
                 <Field label="Zucker (g)" value={form.zucker_100g} onChangeText={(v) => set("zucker_100g", v)} keyboardType="decimal-pad" />
 
                 <Text style={styles.section}>Weitere Infos</Text>
-                <Field label="Kollagenanteil (%)" value={form.kollagen_pct} onChangeText={(v) => set("kollagen_pct", v)} keyboardType="decimal-pad" placeholder="0" />
                 <Field label="Proteinquellen" value={form.proteinquellen} onChangeText={(v) => set("proteinquellen", v)} placeholder="z.B. Molke, Soja (kommagetrennt)" />
-                <View style={styles.switchRow}>
-                  <Text style={styles.fieldLabel}>Enthält Palmöl</Text>
-                  <Switch value={form.palmoil} onValueChange={(v) => set("palmoil", v)} trackColor={{ true: Colors.primary }} />
-                </View>
+                <PalmOilPicker value={form.palmoil} onChange={(v) => set("palmoil", v)} />
 
-                <Text style={styles.section}>Foto</Text>
-                <TouchableOpacity style={styles.imagePicker} onPress={pickImage} activeOpacity={0.8}>
-                  {image ? (
-                    <Image source={{ uri: image.uri }} style={styles.imagePreview} />
-                  ) : (
-                    <Text style={styles.imagePickerText}>Foto auswählen</Text>
-                  )}
-                </TouchableOpacity>
+                <Text style={styles.section}>Fotos</Text>
+                <PhotoPicker
+                  label="Frontfoto"
+                  description="Zeige den Riegel klar und deutlich von vorne, sodass Name und Marke gut lesbar sind."
+                  image={imageFront}
+                  onPick={() => pickImage(setImageFront)}
+                />
+                <PhotoPicker
+                  label="Barcode-Foto"
+                  description="Fotografiere den Barcode auf der Rückseite oder Seite des Riegels – wir tragen die EAN dann nach."
+                  image={imageBarcode}
+                  onPick={() => pickImage(setImageBarcode)}
+                />
 
                 <TouchableOpacity
                   style={[styles.sendButton, !canSubmit && styles.sendButtonDisabled]}
@@ -192,11 +247,19 @@ const styles = StyleSheet.create({
     borderColor: Colors.border, paddingHorizontal: 12, paddingVertical: 10,
     fontSize: 14, fontFamily: Fonts.regular, color: Colors.text,
   },
-  switchRow: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: 10 },
+  segmentRow: { flexDirection: "row", gap: 8 },
+  segmentBtn: {
+    flex: 1, paddingVertical: 9, borderRadius: 10, borderWidth: 1,
+    borderColor: Colors.border, backgroundColor: Colors.surface, alignItems: "center",
+  },
+  segmentBtnActive: { backgroundColor: Colors.primary, borderColor: Colors.primary },
+  segmentText: { fontSize: 13, fontFamily: Fonts.medium, color: Colors.textSecondary },
+  segmentTextActive: { color: Colors.text, fontFamily: Fonts.bold },
+  photoHint: { fontSize: 12, fontFamily: Fonts.regular, color: Colors.textMuted, marginBottom: 6 },
   imagePicker: {
     height: 120, backgroundColor: Colors.surface, borderRadius: 12,
     borderWidth: 1, borderColor: Colors.border, borderStyle: "dashed",
-    alignItems: "center", justifyContent: "center", marginBottom: 10, overflow: "hidden",
+    alignItems: "center", justifyContent: "center", overflow: "hidden",
   },
   imagePreview: { width: "100%", height: "100%", resizeMode: "cover" },
   imagePickerText: { fontSize: 14, fontFamily: Fonts.medium, color: Colors.textMuted },
