@@ -205,6 +205,12 @@ export function SubmissionModal({ visible, onClose }: { visible: boolean; onClos
                   onPick={() => pickImage(setImageBarcode)}
                 />
 
+                <Text style={styles.consent}>
+                  Mit dem Einreichen stimmst du unserer{" "}
+                  <Text style={styles.consentLink}>Datenschutzerklärung</Text>
+                  {" "}zu. Bitte stelle sicher, dass deine Fotos keine Personen zeigen.
+                </Text>
+
                 <TouchableOpacity
                   style={[styles.sendButton, !canSubmit && styles.sendButtonDisabled]}
                   onPress={handleSend}
@@ -274,4 +280,6 @@ const styles = StyleSheet.create({
   successEmoji: { fontSize: 40, color: Colors.primary, marginBottom: 12 },
   successTitle: { fontSize: 18, fontFamily: Fonts.bold, color: Colors.text, marginBottom: 6 },
   successSub: { fontSize: 13, fontFamily: Fonts.regular, color: Colors.textSecondary, marginBottom: 24, textAlign: "center" },
+  consent: { fontSize: 11, fontFamily: Fonts.regular, color: Colors.textMuted, marginTop: 12, marginBottom: 8, lineHeight: 16 },
+  consentLink: { textDecorationLine: "underline" },
 });
