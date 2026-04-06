@@ -2,12 +2,6 @@ import { RankType } from "../App";
 
 export const RANK_TABS: { key: RankType; label: string; infoTitle: string; info: string }[] = [
   {
-    key: "gesamt",
-    label: "Gesamt",
-    infoTitle: "Der Gesamtscore",
-    info: " kombiniert alle drei Kategorien: Nährwerte zählen 50 %, Geschmack 40 % und Preis 10 %. Ein Riegel muss also sowohl nährstoffreich als auch schmackhaft sein, um ganz vorne zu landen.",
-  },
-  {
     key: "naehrwert",
     label: "Nährwerte",
     infoTitle: "Der Nährwerte-Score",
@@ -24,6 +18,12 @@ export const RANK_TABS: { key: RankType; label: string; infoTitle: string; info:
     label: "Preis",
     infoTitle: "Der Preis-Score",
     info: " sortiert nach Preis pro 100g — je günstiger, desto besser. So lassen sich Riegel mit unterschiedlichem Gewicht fair vergleichen.",
+  },
+  {
+    key: "gesamt",
+    label: "Gesamt",
+    infoTitle: "Der Gesamtscore",
+    info: " kombiniert alle drei Kategorien: Nährwerte zählen 50 %, Geschmack 40 % und Preis 10 %. Ein Riegel muss also sowohl nährstoffreich als auch schmackhaft sein, um ganz vorne zu landen.",
   },
 ];
 

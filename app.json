@@ -14,11 +14,13 @@
     },
     "ios": {
       "supportsTablet": true,
+      "bundleIdentifier": "de.supplemania.scanabar",
       "infoPlist": {
         "NSCameraUsageDescription": "Die App benötigt die Kamera um Barcodes zu scannen."
       }
     },
     "android": {
+      "package": "de.supplemania.scanabar",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"

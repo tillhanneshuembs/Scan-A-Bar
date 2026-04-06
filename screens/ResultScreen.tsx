@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Image } from "react-native";
-import { LinearGradient } from "expo-linear-gradient";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { RootStackParamList, RankType } from "../App";
 import { getProductImageUrl } from "../lib/images";
@@ -43,14 +41,13 @@ function RankingPill({ label, rank, onPress }: { label: string; rank: number; on
 }
 
 export default function ResultScreen({ route, navigation }: Props) {
-  const { top } = useSafeAreaInsets();
   const { product } = route.params;
   const { pro_riegel, pro_100g, scores } = product;
   const [nutritionView, setNutritionView] = useState<NutritionView>("riegel");
   const nutr = nutritionView === "riegel" ? pro_riegel : pro_100g;
 
   return (
-    <ScrollView style={styles.container} contentContainerStyle={[styles.content, { paddingTop: top + 44 }]}>
+    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       {/* Produktbild */}
       <View style={styles.imageContainer}>
         <Image
@@ -59,11 +56,10 @@ export default function ResultScreen({ route, navigation }: Props) {
           resizeMode="cover"
           defaultSource={require("../assets/images/placeholder.png")}
         />
-        <LinearGradient
-          colors={["transparent", "rgba(0,0,0,0.18)"]}
-          style={styles.imageGradient}
-          pointerEvents="none"
-        />
+        {/* Rang-Badge überlappend */}
+        <View style={styles.imageBadge}>
+          <Text style={styles.imageBadgeRank}>#{product.rank_gesamt}</Text>
+        </View>
       </View>
 
       {/* Header */}
@@ -77,21 +73,23 @@ export default function ResultScreen({ route, navigation }: Props) {
         </View>
       </View>
 
-      {/* Platzierung */}
-      <Text style={styles.sectionTitle}>Platzierung</Text>
-      <View style={styles.rankRow}>
-        <RankingPill label="Gesamt" rank={product.rank_gesamt} onPress={() => navigation.navigate("Ranking", { rankType: "gesamt", highlightEan: String(product.ean) })} />
-        <RankingPill label="Nährwerte" rank={product.rank_naehrwert} onPress={() => navigation.navigate("Ranking", { rankType: "naehrwert", highlightEan: String(product.ean) })} />
-        <RankingPill label="Geschmack" rank={product.rank_geschmack} onPress={() => navigation.navigate("Ranking", { rankType: "geschmack", highlightEan: String(product.ean) })} />
-        <RankingPill label="Preis" rank={product.rank_preis} onPress={() => navigation.navigate("Ranking", { rankType: "preis", highlightEan: String(product.ean) })} />
-      </View>
-
       {/* Scores */}
       <Text style={styles.sectionTitle}>Scores</Text>
       <View style={styles.circleRow}>
         <CircleScore label="Nährwerte" value={scores.naehrwert} max={100} color={Colors.info} />
         <CircleScore label="Geschmack" value={product.geschmack} max={10} color={Colors.primary} unit="/10" />
         <CircleScore label="Preis" value={scores.preis} max={100} color={Colors.success} />
+      </View>
+
+      {/* Riegel vergleichen */}
+      <View style={styles.compareRow}>
+        <TouchableOpacity
+          style={styles.compareButton}
+          onPress={() => navigation.navigate("Ranking", { rankType: "naehrwert", highlightEan: String(product.ean) })}
+          activeOpacity={0.8}
+        >
+          <Text style={styles.compareButtonText}>Diesen Riegel vergleichen</Text>
+        </TouchableOpacity>
       </View>
 
       {/* Nährwerte */}
@@ -155,10 +153,8 @@ const styles = StyleSheet.create({
   imageContainer: {
     height: 220, backgroundColor: Colors.surfaceAlt,
     alignItems: "center", justifyContent: "center",
-    borderBottomWidth: 1, borderBottomColor: Colors.border,
   },
   productImage: { width: "100%", height: 220 },
-  imageGradient: { ...StyleSheet.absoluteFillObject },
   header: { padding: 20, paddingBottom: 8 },
   productName: { fontSize: 20, fontFamily: Fonts.bold, color: Colors.text, marginBottom: 10 },
   metaRow: { flexDirection: "row", alignItems: "center", gap: 10 },
@@ -178,17 +174,19 @@ const styles = StyleSheet.create({
     flexDirection: "row", justifyContent: "space-between",
     alignItems: "center", paddingHorizontal: 20, marginTop: 20, marginBottom: 10,
   },
-  rankRow: { flexDirection: "row", gap: 8, paddingHorizontal: 20 },
-  rankPill: {
-    flex: 1, backgroundColor: Colors.surface, borderRadius: 12,
-    padding: 10, borderWidth: 1.5, alignItems: "center",
+  compareRow: { paddingHorizontal: 20, marginTop: 16 },
+  compareButton: {
+    backgroundColor: "#FFFFFF", borderRadius: 16,
+    borderWidth: 2, borderColor: Colors.text,
+    paddingVertical: 15, alignItems: "center", justifyContent: "center",
   },
-  rankPillLabel: { color: Colors.textSecondary, fontSize: 10, fontFamily: Fonts.semiBold, marginBottom: 6 },
-  rankBadge: {
-    backgroundColor: "#1E1E1E", borderRadius: 20,
-    paddingHorizontal: 8, paddingVertical: 3, alignItems: "center",
+  compareButtonText: { color: Colors.text, fontSize: 15, fontFamily: Fonts.bold, letterSpacing: 0.3 },
+  imageBadge: {
+    position: "absolute", top: 10, left: 10,
+    backgroundColor: "#1E1E1E", borderRadius: 50,
+    width: 36, height: 36, alignItems: "center", justifyContent: "center",
   },
-  rankBadgeText: { color: "#FFFFFF", fontSize: 12, fontFamily: Fonts.bold },
+  imageBadgeRank: { color: "#FFFFFF", fontSize: 12, fontFamily: Fonts.bold },
   circleRow: {
     flexDirection: "row", justifyContent: "space-around",
     backgroundColor: Colors.surface, borderRadius: 16,
