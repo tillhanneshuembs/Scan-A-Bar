@@ -14,7 +14,7 @@ type Form = {
   name: string; shop: string;
   kcal_riegel: string; fett_riegel: string; kohlen_riegel: string; zucker_riegel: string; eiweiss_riegel: string;
   kcal_100g: string; fett_100g: string; kohlen_100g: string; zucker_100g: string; eiweiss_100g: string;
-  preis_eur: string; gewicht_g: string; proteinquellen: string;
+  preis_eur: string; gewicht_g: string; proteinquellen: string; geschmack: string;
   palmoil: PalmOil;
 };
 
@@ -22,7 +22,7 @@ const empty: Form = {
   name: "", shop: "",
   kcal_riegel: "", fett_riegel: "", kohlen_riegel: "", zucker_riegel: "", eiweiss_riegel: "",
   kcal_100g: "", fett_100g: "", kohlen_100g: "", zucker_100g: "", eiweiss_100g: "",
-  preis_eur: "", gewicht_g: "", proteinquellen: "",
+  preis_eur: "", gewicht_g: "", proteinquellen: "", geschmack: "",
   palmoil: "unknown",
 };
 
@@ -187,6 +187,7 @@ export function SubmissionModal({ visible, onClose }: { visible: boolean; onClos
                 <Field label="Zucker (g)" value={form.zucker_100g} onChangeText={(v) => set("zucker_100g", v)} keyboardType="decimal-pad" />
 
                 <Text style={styles.section}>Weitere Infos</Text>
+                <Field label="Geschmack (0–10)" value={form.geschmack} onChangeText={(v) => set("geschmack", v)} keyboardType="decimal-pad" placeholder="z.B. 7.5" />
                 <Field label="Proteinquellen" value={form.proteinquellen} onChangeText={(v) => set("proteinquellen", v)} placeholder="z.B. Molke, Soja (kommagetrennt)" />
                 <PalmOilPicker value={form.palmoil} onChange={(v) => set("palmoil", v)} />
 
