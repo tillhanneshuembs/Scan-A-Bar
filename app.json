@@ -28,6 +28,7 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "permissions": [
+        "android.permission.CAMERA",
         "android.permission.CAMERA"
       ]
     },
@@ -36,6 +37,18 @@
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b1105e68-53d5-42b2-9335-e3c80d2a9bfd"
+      }
+    },
+    "owner": "tillhannes",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b1105e68-53d5-42b2-9335-e3c80d2a9bfd"
+    }
   }
 }
