@@ -53,7 +53,7 @@ export default function App() {
   }, [fontsLoaded]);
 
   useEffect(() => {
-    AsyncStorage.getItem("onboarding_done").then((val) => {
+AsyncStorage.getItem("onboarding_done").then((val) => {
       if (!val) setShowOnboarding(true);
     });
   }, []);

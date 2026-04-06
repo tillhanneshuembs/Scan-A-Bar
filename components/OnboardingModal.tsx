@@ -10,15 +10,15 @@ export function OnboardingModal({ visible, onDone }: { visible: boolean; onDone:
         <View style={styles.card}>
           <Image source={require("../assets/logo.png")} style={styles.logo} resizeMode="contain" />
 
-          <Text style={styles.title}>Willkommen bei Scan-A-Bar</Text>
+          <Text style={styles.title}>Willkommen bei{"\n"}Scan-A-Bar</Text>
           <Text style={styles.body}>
             Scanne Proteinriegel und vergleiche sie nach Nährwerten, Geschmack und Preis — objektiv und übersichtlich.
           </Text>
 
           <View style={styles.points}>
-            <Text style={styles.point}>📷  Barcode scannen & Riegel sofort einordnen</Text>
-            <Text style={styles.point}>🏆  Ranglisten nach Nährwert, Geschmack & Preis</Text>
-            <Text style={styles.point}>📬  Fehlenden Riegel einreichen</Text>
+            <Text style={styles.point}>📷{"\n"}Barcode scannen & Riegel sofort einordnen</Text>
+            <Text style={styles.point}>🏆{"\n"}Ranglisten nach Nährwert, Geschmack & Preis</Text>
+            <Text style={styles.point}>📬{"\n"}Fehlenden Riegel einreichen</Text>
           </View>
 
           <Text style={styles.privacy}>
@@ -59,9 +59,9 @@ const styles = StyleSheet.create({
     fontSize: 14, fontFamily: Fonts.regular, color: Colors.textSecondary,
     textAlign: "center", lineHeight: 21, marginBottom: 20,
   },
-  points: { alignSelf: "stretch", gap: 8, marginBottom: 24 },
+  points: { alignSelf: "stretch", gap: 8, marginBottom: 24, alignItems: "center" },
   point: {
-    fontSize: 13, fontFamily: Fonts.medium, color: Colors.text, lineHeight: 20,
+    fontSize: 13, fontFamily: Fonts.medium, color: Colors.text, lineHeight: 20, textAlign: "center",
   },
   privacy: {
     fontSize: 11, fontFamily: Fonts.regular, color: Colors.textMuted,
