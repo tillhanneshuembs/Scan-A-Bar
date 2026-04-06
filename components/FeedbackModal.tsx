@@ -62,7 +62,7 @@ export function FeedbackModal({ visible, onClose }: { visible: boolean; onClose:
                       activeOpacity={0.8}
                     >
                       <Text style={styles.optionTitle}>Neuen Riegel einreichen</Text>
-                      <Text style={styles.optionSub}>Riegel der noch nicht gelistet ist vorschlagen</Text>
+                      <Text style={styles.optionSub}>Teile einen neuen Riegel, der in der Liste fehlt</Text>
                     </TouchableOpacity>
                     <TouchableOpacity
                       style={[styles.optionButton, styles.optionButtonSecondary]}
@@ -70,7 +70,7 @@ export function FeedbackModal({ visible, onClose }: { visible: boolean; onClose:
                       activeOpacity={0.8}
                     >
                       <Text style={styles.optionTitle}>Feedback senden</Text>
-                      <Text style={styles.optionSub}>Fehler melden oder eine Nachricht schicken</Text>
+                      <Text style={styles.optionSub}>Fehler entdeckt? Sende uns eine Nachricht.</Text>
                     </TouchableOpacity>
                   </>
                 )}

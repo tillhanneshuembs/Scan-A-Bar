@@ -52,7 +52,7 @@ export default function HomeScreen({ navigation }: Props) {
           </TouchableOpacity>
 
           <TouchableOpacity onPress={() => setFeedbackVisible(true)} activeOpacity={0.7} style={styles.feedbackLinkWrap}>
-            <Text style={styles.feedbackLink}>Feedback geben</Text>
+            <Text style={styles.feedbackLink}>Neuen Riegel einreichen</Text>
           </TouchableOpacity>
         </View>
 
